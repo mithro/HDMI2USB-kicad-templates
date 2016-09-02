@@ -1,4 +1,4 @@
-update=Fri 02 Sep 2016 04:24:21 PM AEST
+update=Fri 02 Sep 2016 04:35:34 PM AEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,7 +25,7 @@ version=1
 NetIExt=net
 [eeschema]
 version=1
-LibDir=../../libraries
+LibDir=../../libraries;../
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -58,5 +58,6 @@ LibName28=contrib
 LibName29=valves
 LibName30=hdmi2usb-pcie-artix7
 LibName31=hdmi2usb
+LibName32=HDMI2USB-cache
 [general]
 version=1
