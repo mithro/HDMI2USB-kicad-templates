@@ -773,4 +773,6 @@ Text HLabel 9800 5950 0    60   Input ~ 0
 HDMI_$TXn$_CEC
 Wire Wire Line
 	6500 7050 6500 7150
+Text Notes 930  1790 0    197  ~ 39
+$WARNING1$\n$WARNING2$\n$WARNING3$
 $EndSCHEMATC

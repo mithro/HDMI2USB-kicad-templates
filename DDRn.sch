@@ -31,6 +31,7 @@ LIBS:valves
 LIBS:hdmi2usb-pcie-artix7
 LIBS:hdmi2usb
 LIBS:HDMI2USB-cache
+LIBS:DDRn-cache
 EELAYER 25 0
 EELAYER END
 $Descr A2 23386 16535
@@ -1903,4 +1904,6 @@ Wire Wire Line
 Connection ~ 2500 10235
 Wire Wire Line
 	2500 10775 2500 10700
+Text Notes 11780 2715 0    197  ~ 39
+$WARNING1$\n$WARNING2$\n$WARNING3$
 $EndSCHEMATC
