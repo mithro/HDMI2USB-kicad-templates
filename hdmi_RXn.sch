@@ -31,12 +31,11 @@ LIBS:valves
 LIBS:hdmi2usb-pcie-artix7
 LIBS:hdmi2usb
 LIBS:HDMI2USB-cache
-LIBS:HDMI2USB-pcie-artix7-cache
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 8 14
+Sheet 1 1
 Title ""
 Date ""
 Rev ""
@@ -1140,4 +1139,8 @@ Wire Wire Line
 	2100 7150 2100 7050
 Wire Wire Line
 	6300 5450 6300 5550
+Wire Wire Line
+	2050 3100 2050 3150
+Wire Wire Line
+	2650 1400 2650 1450
 $EndSCHEMATC

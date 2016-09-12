@@ -31,12 +31,11 @@ LIBS:valves
 LIBS:hdmi2usb-pcie-artix7
 LIBS:hdmi2usb
 LIBS:HDMI2USB-cache
-LIBS:HDMI2USB-pcie-artix7-cache
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 7 14
+Sheet 1 1
 Title ""
 Date ""
 Rev ""
@@ -251,7 +250,15 @@ Wire Wire Line
 Wire Wire Line
 	11750 4850 11600 4850
 Wire Wire Line
-	11600 4850 11600 6900
+	11600 4850 11600 5150
+Wire Wire Line
+	11600 5150 11600 5450
+Wire Wire Line
+	11600 5450 11600 5750
+Wire Wire Line
+	11600 5750 11600 6350
+Wire Wire Line
+	11600 6350 11600 6900
 Wire Wire Line
 	11750 5150 11600 5150
 Connection ~ 11600 5150
@@ -288,11 +295,15 @@ Wire Wire Line
 Wire Wire Line
 	6400 5800 6750 5800
 Wire Wire Line
-	8150 6600 9000 6600
+	8150 6600 8550 6600
+Wire Wire Line
+	8550 6600 9000 6600
 Wire Wire Line
 	8150 6400 9000 6400
 Wire Wire Line
-	7400 3750 7500 3750
+	7400 3750 7450 3750
+Wire Wire Line
+	7450 3750 7500 3750
 Wire Wire Line
 	7450 3750 7450 3600
 Connection ~ 7450 3750
@@ -300,7 +311,9 @@ Wire Wire Line
 	11750 6350 11600 6350
 Connection ~ 11600 6350
 Wire Wire Line
-	9800 5950 11750 5950
+	9800 5950 10600 5950
+Wire Wire Line
+	10600 5950 11750 5950
 Wire Wire Line
 	10600 5950 10600 5650
 Wire Wire Line
@@ -440,7 +453,9 @@ F 3 "" H 3950 4050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3900 4100 4000 4100
+	3900 4100 3950 4100
+Wire Wire Line
+	3950 4100 4000 4100
 Text Label 3800 5900 2    60   ~ 0
 HDMIP_$TXn$_SCL
 Text Label 3800 6000 2    60   ~ 0
@@ -542,7 +557,9 @@ Wire Wire Line
 Wire Wire Line
 	3900 5300 3900 5450
 Wire Wire Line
-	3900 5300 4000 5300
+	3900 5300 3950 5300
+Wire Wire Line
+	3950 5300 4000 5300
 Wire Wire Line
 	4000 5300 4000 5450
 Wire Wire Line
@@ -569,7 +586,7 @@ F 3 "" H 10600 4450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Csmall C$TXn$11
+L C_Small C$TXn$11
 U 1 1 57C07774
 P 8550 6850
 F 0 "C$TXn$11" H 8550 6800 30  0000 L CNN
@@ -634,7 +651,9 @@ F 3 "" H 8400 3600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8300 3600 8500 3600
+	8300 3600 8400 3600
+Wire Wire Line
+	8400 3600 8500 3600
 Wire Wire Line
 	8300 3600 8300 3700
 Wire Wire Line
@@ -643,7 +662,9 @@ Connection ~ 8400 3600
 Wire Wire Line
 	8300 4000 8300 4100
 Wire Wire Line
-	8300 4100 8500 4100
+	8300 4100 8400 4100
+Wire Wire Line
+	8400 4100 8500 4100
 Wire Wire Line
 	8500 4100 8500 4000
 $Comp
