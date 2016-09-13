@@ -148,7 +148,7 @@ F 3 "~" H 3045 10535 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 2095 10235 0    60   ~ 0
-VTT$DDRn$1
+VTTDDR
 $Comp
 L R R$DDRn$111
 U 1 1 57C61749
@@ -629,7 +629,7 @@ $EndComp
 Text Label 1850 12850 0    60   ~ 12
 VCC1V5
 Text Label 1800 13950 0    60   ~ 0
-VTT$DDRn$1
+VTTDDR
 Text Label 2400 2450 0    60   ~ 12
 $DDRn$1_A0
 Text Label 2400 2550 0    60   ~ 12
@@ -805,11 +805,11 @@ GND
 Text GLabel 1800 12850 0    60   Input ~ 12
 VCC1V5
 Text GLabel 1695 10235 0    60   Input ~ 12
-VTT$DDRn$1
+VTTDDR
 Text HLabel 9350 2250 2    60   Input ~ 12
 $DDRn$1_ZQ
 Text GLabel 9350 4650 2    60   Input ~ 0
-VTTREF0
+VTTREF
 $Comp
 L C C$DDRn$101
 U 1 1 57C617AD
@@ -921,7 +921,7 @@ F 3 "" H 4980 14695 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Text Label 5030 14995 0    60   ~ 0
-VTT$DDRn$1
+VTTDDR
 $Comp
 L GND #PWR07
 U 1 1 57C617BC
@@ -1056,7 +1056,7 @@ Wire Wire Line
 	9200 3900 9250 3900
 Connection ~ 9250 3900
 Wire Wire Line
-	9200 4000 9250 4000
+	9200 4000 9510 4000
 Connection ~ 9250 4000
 Wire Wire Line
 	9200 4100 9250 4100
@@ -1089,7 +1089,7 @@ Wire Wire Line
 	9200 2950 9250 2950
 Connection ~ 9250 2950
 Wire Wire Line
-	9200 3050 9250 3050
+	9200 3050 9510 3050
 Connection ~ 9250 3050
 Wire Wire Line
 	9200 3150 9250 3150
@@ -1502,7 +1502,7 @@ Wire Wire Line
 Wire Wire Line
 	2230 14990 2530 14995
 Wire Wire Line
-	2530 14995 5030 14995
+	2530 14995 5505 14995
 Wire Wire Line
 	4980 14845 4980 14995
 Connection ~ 4980 14995
@@ -1562,4 +1562,12 @@ Wire Wire Line
 	2500 10775 2500 10700
 Text Notes 11780 2715 0    197  ~ 39
 $WARNING1$\n$WARNING2$\n$WARNING3$
+Text GLabel 1800 13950 0    60   Input ~ 12
+VTTDDR
+Text GLabel 5505 14995 2    60   Input ~ 12
+VTTDDR
+Text GLabel 9510 3050 2    60   Input ~ 12
+VCC1V5
+Text GLabel 9510 4000 2    60   Input ~ 12
+VCC1V5
 $EndSCHEMATC
