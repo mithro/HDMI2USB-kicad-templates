@@ -47,10 +47,10 @@ Comment3 "License: CC-BY-SA 4.0 International"
 Comment4 "$Id: $"
 $EndDescr
 $Comp
-L MT41J128M16 U$DDRn$10
+L MT41J128M16 U$DDRn$1
 U 1 1 57C61740
 P 8400 5050
-F 0 "U$DDRn$10" H 8350 7900 60  0000 C CNN
+F 0 "U$DDRn$1" H 8350 7900 60  0000 C CNN
 F 1 "MT41J128M16" H 8350 1500 60  0000 C CNN
 F 2 "SMD_Packages:BGA-96_pitch0.8mm_dia0.4mm" H 8400 5050 60  0001 C CNN
 F 3 "https://www.micron.com/~/media/documents/products/data-sheet/dram/ddr3/2gb_ddr3_sdram.pdf" H 8400 5050 60  0001 C CNN
