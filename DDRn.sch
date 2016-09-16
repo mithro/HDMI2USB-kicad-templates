@@ -558,8 +558,6 @@ Text GLabel 2000 6650 0    60   Input ~ 12
 GND
 Text GLabel 1800 12850 0    60   Input ~ 12
 VCC1V5
-Text GLabel 11100 4750 2    60   Input ~ 12
-VCC0V75
 Text Label 2250 5650 0    60   ~ 0
 $DDRn$1_CASN0
 Text Label 2250 5550 0    60   ~ 0
@@ -888,7 +886,7 @@ Wire Wire Line
 Wire Wire Line
 	10150 4750 10950 4750
 Wire Wire Line
-	10950 4750 11100 4750
+	10950 4750 11650 4750
 Wire Wire Line
 	9250 4750 9250 4850
 Wire Wire Line
@@ -1247,10 +1245,8 @@ F 3 "" H 2950 14400 60  0000 C CNN
 	1    2950 14400
 	-1   0    0    1   
 $EndComp
-Text GLabel 1800 14150 0    60   Input ~ 12
-VCC0V75
 Wire Wire Line
-	1800 14150 2250 14150
+	1550 14150 2250 14150
 Wire Wire Line
 	2250 14150 2600 14150
 Wire Wire Line
@@ -1325,7 +1321,7 @@ DQ Bypass\n
 Wire Wire Line
 	10150 4000 10150 4250
 Wire Wire Line
-	8400 13400 8400 13300
+	8400 13300 8400 13550
 $Comp
 L R R$DDRn$102
 U 1 1 57DD302A
@@ -1360,8 +1356,6 @@ Wire Wire Line
 Connection ~ 10950 4750
 Connection ~ 10150 4000
 Connection ~ 10950 4000
-Wire Wire Line
-	8400 13400 8400 13550
 $Comp
 L GND #PWR?
 U 1 1 57DBC649
@@ -1375,4 +1369,8 @@ F 3 "" H 8400 13550 60  0000 C CNN
 $EndComp
 Text Label 8400 13550 0    60   ~ 0
 GND
+Text Label 11650 4750 2    60   ~ 0
+$DDRn$10V75
+Text Label 1550 14150 0    60   ~ 0
+$DDRn$10V75
 $EndSCHEMATC
