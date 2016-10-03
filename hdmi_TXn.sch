@@ -31,7 +31,6 @@ LIBS:valves
 LIBS:hdmi2usb-pcie-artix7
 LIBS:hdmi2usb
 LIBS:HDMI2USB-cache
-LIBS:hdmi_TXn-cache
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
@@ -664,22 +663,6 @@ Text HLabel 5850 4400 0    60   Input ~ 0
 HDMI_$TXn$1_EQ1
 Text HLabel 5850 4600 0    60   Input ~ 0
 HDMI_$TXn$1_DDC_EN
-Text HLabel 5400 4800 0    60   Input ~ 0
-HDMI_$TXn$1_D1+
-Text HLabel 5400 4900 0    60   Input ~ 0
-HDMI_$TXn$1_D1-
-Text HLabel 5400 5100 0    60   Input ~ 0
-HDMI_$TXn$1_D2+
-Text HLabel 5400 5200 0    60   Input ~ 0
-HDMI_$TXn$1_D2-
-Text HLabel 5400 5400 0    60   Input ~ 0
-HDMI_$TXn$1_D3+
-Text HLabel 5400 5500 0    60   Input ~ 0
-HDMI_$TXn$1_D3-
-Text HLabel 5400 5700 0    60   Input ~ 0
-HDMI_$TXn$1_D4+
-Text HLabel 5400 5800 0    60   Input ~ 0
-HDMI_$TXn$1_D4-
 Text HLabel 5850 6000 0    60   BiDi ~ 0
 HDMI_$TXn$1_SCL
 Text HLabel 5850 6100 0    60   BiDi ~ 0
@@ -953,4 +936,58 @@ Wire Wire Line
 	10650 7650 10650 7600
 Text Label 10650 7650 2    60   ~ 0
 VCC3V3
+Text Label 2650 4950 2    60   ~ 0
+HDMI_$TXn$1_D1+
+Text Label 2650 5050 2    60   ~ 0
+HDMI_$TXn$1_D1-
+Text Label 2650 5250 2    60   ~ 0
+HDMI_$TXn$1_D2+
+Text Label 2650 5350 2    60   ~ 0
+HDMI_$TXn$1_D2-
+Text Label 2650 5550 2    60   ~ 0
+HDMI_$TXn$1_D3+
+Text Label 2650 5650 2    60   ~ 0
+HDMI_$TXn$1_D3-
+Text Label 2650 5850 2    60   ~ 0
+HDMI_$TXn$1_D4+
+Text Label 2650 5950 2    60   ~ 0
+HDMI_$TXn$1_D4-
+Wire Wire Line
+	1850 5850 2650 5850
+Wire Wire Line
+	1850 5950 2650 5950
+Wire Wire Line
+	1850 5650 2650 5650
+Wire Wire Line
+	1850 5550 2650 5550
+Wire Wire Line
+	1850 5350 2650 5350
+Wire Wire Line
+	1850 5250 2650 5250
+Wire Wire Line
+	1850 5050 2650 5050
+Wire Wire Line
+	1850 4950 2650 4950
+Text HLabel 1550 4825 0    60   Input ~ 0
+HDMI_$TXn$1_D[4..1]
+Entry Wire Line
+	1750 4850 1850 4950
+Entry Wire Line
+	1750 4950 1850 5050
+Entry Wire Line
+	1750 5150 1850 5250
+Entry Wire Line
+	1750 5250 1850 5350
+Entry Wire Line
+	1750 5450 1850 5550
+Entry Wire Line
+	1750 5550 1850 5650
+Entry Wire Line
+	1750 5750 1850 5850
+Entry Wire Line
+	1750 5850 1850 5950
+Wire Bus Line
+	1750 5850 1750 4825
+Wire Bus Line
+	1750 4825 1550 4825
 $EndSCHEMATC
