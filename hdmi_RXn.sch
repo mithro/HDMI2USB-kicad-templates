@@ -31,7 +31,6 @@ LIBS:valves
 LIBS:hdmi2usb-pcie-artix7
 LIBS:hdmi2usb
 LIBS:HDMI2USB-cache
-LIBS:hdmi_RXn-cache
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
@@ -651,42 +650,6 @@ Text Label 6750 1750 0    60   ~ 0
 GND
 Text HLabel 1500 6600 0    60   Input ~ 0
 HDMI_$RXn$1_HPA
-Text Label 11700 3000 0    60   ~ 0
-HDMI_$RXn$1_D1+
-Text Label 11700 3100 0    60   ~ 0
-HDMI_$RXn$1_D1-
-Text Label 11700 2800 0    60   ~ 0
-HDMI_$RXn$1_D2-
-Text Label 11700 2700 0    60   ~ 0
-HDMI_$RXn$1_D2+
-Text Label 11700 2500 0    60   ~ 0
-HDMI_$RXn$1_D3-
-Text Label 11700 2400 0    60   ~ 0
-HDMI_$RXn$1_D3+
-Text Label 11700 2200 0    60   ~ 0
-HDMI_$RXn$1_D4-
-Text Label 11700 2100 0    60   ~ 0
-HDMI_$RXn$1_D4+
-Entry Wire Line
-	12500 2100 12600 2000
-Entry Wire Line
-	12500 2200 12600 2100
-Entry Wire Line
-	12500 2400 12600 2300
-Entry Wire Line
-	12500 2500 12600 2400
-Entry Wire Line
-	12500 2700 12600 2600
-Entry Wire Line
-	12500 2800 12600 2700
-Entry Wire Line
-	12500 3000 12600 2900
-Entry Wire Line
-	12500 3100 12600 3000
-Text HLabel 13650 1900 2    60   Output ~ 0
-HDMI_$RXn$1_TMDS[4..1]
-Text Label 13650 1900 2    60   ~ 0
-HDMI_$RXn$1_TMDS[4..1]
 Wire Wire Line
 	5300 2100 7150 2100
 Wire Wire Line
@@ -1031,26 +994,6 @@ Wire Wire Line
 Wire Wire Line
 	6950 1750 6950 1650
 Wire Wire Line
-	11700 2100 12500 2100
-Wire Wire Line
-	11700 2200 12500 2200
-Wire Wire Line
-	11700 2400 12500 2400
-Wire Wire Line
-	11700 2500 12500 2500
-Wire Wire Line
-	11700 2700 12500 2700
-Wire Wire Line
-	11700 2800 12500 2800
-Wire Wire Line
-	11700 3000 12500 3000
-Wire Wire Line
-	11700 3100 12500 3100
-Wire Bus Line
-	12600 1900 12600 3100
-Wire Bus Line
-	12600 1900 13650 1900
-Wire Wire Line
 	2050 1400 2050 1450
 Wire Wire Line
 	2350 1400 2350 1450
@@ -1134,4 +1077,20 @@ Wire Wire Line
 	6290 7285 6290 7100
 Wire Wire Line
 	6290 7100 6250 7100
+Text HLabel 10100 2100 2    60   Output ~ 0
+HDMI_$RXn$1_D4+
+Text HLabel 10100 2200 2    60   Output ~ 0
+HDMI_$RXn$1_D4-
+Text HLabel 10100 2400 2    60   Output ~ 0
+HDMI_$RXn$1_D3+
+Text HLabel 10100 2500 2    60   Output ~ 0
+HDMI_$RXn$1_D3-
+Text HLabel 10100 2700 2    60   Output ~ 0
+HDMI_$RXn$1_D2+
+Text HLabel 10100 2800 2    60   Output ~ 0
+HDMI_$RXn$1_D2-
+Text HLabel 10100 3000 2    60   Output ~ 0
+HDMI_$RXn$1_D1+
+Text HLabel 10100 3100 2    60   Output ~ 0
+HDMI_$RXn$1_D1-
 $EndSCHEMATC
