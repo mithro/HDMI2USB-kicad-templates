@@ -28,8 +28,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:zybo-hdmi-template
-LIBS:zybo-hdmi-template-cache
+LIBS:hdmi_BiDir_n
+LIBS:hdmi_BiDir_n-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268

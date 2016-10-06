@@ -58,4 +58,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=zybo-hdmi-template
+LibName30=hdmi_BiDir_n
