@@ -193,7 +193,7 @@ HDMIP_$RXn$1_SCL
 Text Label 7150 3500 2    60   ~ 0
 HDMIP_$RXn$1_SDA
 Text Label 7150 3250 2    60   ~ 0
-HDMIP_$Rxn$_CEC
+HDMIP_$RXn$1_CEC
 Text Label 10000 4900 2    60   ~ 0
 HDMIP_$RXn$1_SCL
 Text Label 10000 5000 2    60   ~ 0
