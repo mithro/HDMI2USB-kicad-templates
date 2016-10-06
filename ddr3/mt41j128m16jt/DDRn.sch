@@ -55,6 +55,7 @@ F 2 "SMD_Packages:BGA-96_pitch0.8mm_dia0.4mm" H 8400 5050 60  0001 C CNN
 F 3 "https://www.micron.com/~/media/documents/products/data-sheet/dram/ddr3/2gb_ddr3_sdram.pdf" H 8400 5050 60  0001 C CNN
 F 4 "DDR3 SDRAM 2GBIT 800MHz" H 8400 5050 60  0001 C CNN "desc"
 F 5 "MT41J128M16JT-125" H 8400 5050 60  0001 C CNN "manf#"
+F 6 "557-1611-6-ND" H 8400 5050 60  0001 C CNN "digikey#"
 	1    8400 5050
 	1    0    0    -1  
 $EndComp
