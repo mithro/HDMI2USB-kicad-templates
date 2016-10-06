@@ -47,11 +47,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L HDMI J?
+L HDMI_BIDIR J?
 U 1 1 57E7C395
 P 995 3450
 F 0 "J?" H 839 2263 60  0000 C CNN
-F 1 "HDMI" H 839 2369 60  0000 C CNN
+F 1 "HDMI_BIDIR" H 839 2369 60  0000 C CNN
 F 2 "" H 945 3450 60  0000 C CNN
 F 3 "" H 945 3450 60  0000 C CNN
 	1    995  3450
@@ -763,7 +763,7 @@ Text Notes 4135 5095 0    60   ~ 0
 Text Notes 3065 7560 0    60   ~ 0
 I2C / EDID Level Shifter
 Text HLabel 7480 3350 2    60   BiDi ~ 0
-HDMI_$BiDirn$1_CLK+
+HDMI_$BiDirn$1_CLK-
 Text HLabel 7480 3450 2    60   BiDi ~ 0
 HDMI_$BiDirn$1_CLK+
 Text HLabel 7480 3650 2    60   BiDi ~ 0
