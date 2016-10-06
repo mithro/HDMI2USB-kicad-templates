@@ -3,15 +3,15 @@
 
 ## High speed speed signals
 
- * `HDMI_D0_N`  - LVDS
- * `HDMI_D0_P`  - LVDS
- * `HDMI_D1_N`  - LVDS
- * `HDMI_D1_P`  - LVDS
- * `HDMI_D2_N`  - LVDS
- * `HDMI_D2_P`  - LVDS
+ * `HDMI_D0_N` - LVDS
+ * `HDMI_D0_P` - LVDS
+ * `HDMI_D1_N` - LVDS
+ * `HDMI_D1_P` - LVDS
+ * `HDMI_D2_N` - LVDS
+ * `HDMI_D2_P` - LVDS
 
- * `HDMI_CLK_N` / `HDMI_D4_N` - LVDS
- * `HDMI_CLK_P` / `HDMI_D4_P` - LVDS
+ * `HDMI_CLK_N` - LVDS
+ * `HDMI_CLK_P` - LVDS
 
 ## Low speed signals
 
