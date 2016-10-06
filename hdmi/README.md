@@ -35,8 +35,10 @@
 
 ### AD8195
 
- * `HDMI_RX_TXEN`
- * `HDMI_RX_PEEN`
+ * `HDMI_AUX0` - `HDMI_RX_TXEN`
+ * `HDMI_AUX1` - `HDMI_RX_PEEN`
+ * `HDMI_AUX2` - `HDMI_RX_IO0`
+ * `HDMI_AUX3` - `HDMI_RX_IO1`
 
 ### TMDS141
  * `I2CEN`
