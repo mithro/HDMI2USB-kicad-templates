@@ -28,6 +28,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:pmod-conn_6x2
+LIBS:hdmi
 LIBS:hdmi_BiDir_n
 LIBS:hdmi_BiDir_n-cache
 EELAYER 25 0
@@ -916,4 +918,10 @@ Text HLabel 2600 6500 0    60   BiDi ~ 0
 HDMI_SCL
 Text HLabel 2600 6600 0    60   BiDi ~ 0
 HDMI_SDA
+Text Notes 7020 715  0    60   ~ 0
+Hot plug drive or detect
+Text Notes 5155 4495 0    60   ~ 0
+5V HDMI Supply
+Text Notes 4085 6960 0    60   ~ 0
+I2C / EDID Level Shifter
 $EndSCHEMATC
