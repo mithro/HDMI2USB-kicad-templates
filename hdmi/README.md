@@ -59,7 +59,7 @@
 ## Questions
 
  * What about HEAC?
-
+ * What about ARC?
 
 
 ### hdmi/bidir/unbuffered 
