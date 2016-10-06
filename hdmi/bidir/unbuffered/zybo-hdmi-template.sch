@@ -1,0 +1,919 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:zybo-hdmi-template
+LIBS:zybo-hdmi-template-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L HDMI J?
+U 1 1 57E7C395
+P 2650 2850
+F 0 "J?" H 2494 1663 60  0000 C CNN
+F 1 "HDMI" H 2494 1769 60  0000 C CNN
+F 2 "" H 2600 2850 60  0000 C CNN
+F 3 "" H 2600 2850 60  0000 C CNN
+	1    2650 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L NC7WZ07P6X U?
+U 2 1 57E7CEE7
+P 6550 1050
+F 0 "U?" H 6575 1387 60  0000 C CNN
+F 1 "NC7WZ07P6X" H 6575 1281 60  0000 C CNN
+F 2 "" H 6550 1050 60  0001 C CNN
+F 3 "" H 6550 1050 60  0001 C CNN
+	2    6550 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L NC7SZ125M5X U?
+U 1 1 57E7CF6B
+P 7250 1500
+F 0 "U?" H 7350 1837 60  0000 C CNN
+F 1 "NC7SZ125M5X" H 7350 1731 60  0000 C CNN
+F 2 "" H 7330 1490 60  0001 C CNN
+F 3 "" H 7330 1490 60  0001 C CNN
+	1    7250 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GTL2002GM U?
+U 1 1 57E7D022
+P 4650 6450
+F 0 "U?" H 4450 6750 60  0000 C CNN
+F 1 "GTL2002GM" H 4600 6150 60  0000 C CNN
+F 2 "" H 4650 6450 60  0001 C CNN
+F 3 "" H 4650 6450 60  0001 C CNN
+	1    4650 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L ADP198ACPZ-R7 U?
+U 1 1 57E7D0FA
+P 4700 4750
+F 0 "U?" H 4900 5350 60  0000 L CNN
+F 1 "ADP198ACPZ-R7" H 4900 5250 60  0000 L CNN
+F 2 "" H 4700 4750 60  0001 C CNN
+F 3 "" H 4700 4750 60  0001 C CNN
+	1    4700 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L NC7SZ125M5X U?
+U 2 1 57E7D156
+P 9800 5150
+F 0 "U?" H 9850 4600 60  0000 L CNN
+F 1 "NC7SZ125M5X" V 9800 4900 60  0000 L CNN
+F 2 "" H 9880 5140 60  0001 C CNN
+F 3 "" H 9880 5140 60  0001 C CNN
+	2    9800 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L NC7WZ07P6X U?
+U 3 1 57E7D1E2
+P 9000 5150
+F 0 "U?" H 8900 4600 60  0000 L CNN
+F 1 "NC7WZ07P6X" V 8850 4950 60  0000 L CNN
+F 2 "" H 9000 5150 60  0001 C CNN
+F 3 "" H 9000 5150 60  0001 C CNN
+	3    9000 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 57E7D417
+P 9200 5150
+F 0 "C?" H 9315 5196 50  0000 L CNN
+F 1 "100nF" H 9315 5105 50  0000 L CNN
+F 2 "" H 9238 5000 50  0000 C CNN
+F 3 "" H 9200 5150 50  0000 C CNN
+	1    9200 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 57E7DAFA
+P 10150 5150
+F 0 "C?" H 10265 5196 50  0000 L CNN
+F 1 "100nF" H 10265 5105 50  0000 L CNN
+F 2 "" H 10188 5000 50  0000 C CNN
+F 3 "" H 10150 5150 50  0000 C CNN
+	1    10150 5150
+	1    0    0    -1  
+$EndComp
+Text Label 9550 4650 2    60   ~ 0
+VCC3V3
+Text Label 10500 4650 2    60   ~ 0
+VCC3V3
+Text Label 9550 5600 2    60   ~ 0
+GND
+Text Label 10500 5600 2    60   ~ 0
+GND
+$Comp
+L R R?
+U 1 1 57E7DFA3
+P 4200 2000
+F 0 "R?" H 4270 2046 50  0000 L CNN
+F 1 "27K" H 4270 1955 50  0000 L CNN
+F 2 "" V 4130 2000 50  0000 C CNN
+F 3 "" H 4200 2000 50  0000 C CNN
+	1    4200 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 57E7E093
+P 5150 1800
+F 0 "R?" H 5220 1846 50  0000 L CNN
+F 1 "100K" H 5220 1755 50  0000 L CNN
+F 2 "" V 5080 1800 50  0000 C CNN
+F 3 "" H 5150 1800 50  0000 C CNN
+	1    5150 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 57E7E11E
+P 4100 5150
+F 0 "R?" H 4170 5196 50  0000 L CNN
+F 1 "1K5" H 4170 5105 50  0000 L CNN
+F 2 "" V 4030 5150 50  0000 C CNN
+F 3 "" H 4100 5150 50  0000 C CNN
+	1    4100 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 57E7E244
+P 3100 6100
+F 0 "R?" H 2950 6150 50  0000 L CNN
+F 1 "1K" H 2950 6050 50  0000 L CNN
+F 2 "" V 3030 6100 50  0000 C CNN
+F 3 "" H 3100 6100 50  0000 C CNN
+	1    3100 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 57E7E2A7
+P 3300 6100
+F 0 "R?" H 3370 6146 50  0000 L CNN
+F 1 "1K" H 3370 6055 50  0000 L CNN
+F 2 "" V 3230 6100 50  0000 C CNN
+F 3 "" H 3300 6100 50  0000 C CNN
+	1    3300 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 57E7E46F
+P 5950 6250
+F 0 "R?" H 5800 6300 50  0000 L CNN
+F 1 "1K5" H 5750 6200 50  0000 L CNN
+F 2 "" V 5880 6250 50  0000 C CNN
+F 3 "" H 5950 6250 50  0000 C CNN
+	1    5950 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 57E7E475
+P 6150 6250
+F 0 "R?" H 6220 6296 50  0000 L CNN
+F 1 "1K5" H 6220 6205 50  0000 L CNN
+F 2 "" V 6080 6250 50  0000 C CNN
+F 3 "" H 6150 6250 50  0000 C CNN
+	1    6150 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 57E7E49B
+P 5650 5700
+F 0 "R?" V 5550 5700 50  0000 C CNN
+F 1 "200K" V 5750 5700 50  0000 C CNN
+F 2 "" V 5580 5700 50  0000 C CNN
+F 3 "" H 5650 5700 50  0000 C CNN
+	1    5650 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L C C?
+U 1 1 57E7E579
+P 4150 5900
+F 0 "C?" H 4265 5946 50  0000 L CNN
+F 1 "100nF" H 4265 5855 50  0000 L CNN
+F 2 "" H 4188 5750 50  0000 C CNN
+F 3 "" H 4150 5900 50  0000 C CNN
+	1    4150 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 57E7E6E7
+P 5050 5900
+F 0 "C?" H 5165 5946 50  0000 L CNN
+F 1 "100nF" H 5165 5855 50  0000 L CNN
+F 2 "" H 5088 5750 50  0000 C CNN
+F 3 "" H 5050 5900 50  0000 C CNN
+	1    5050 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 57E7E87F
+P 7850 1050
+F 0 "R?" V 7643 1050 50  0000 C CNN
+F 1 "1K" V 7734 1050 50  0000 C CNN
+F 2 "" V 7780 1050 50  0000 C CNN
+F 3 "" H 7850 1050 50  0000 C CNN
+	1    7850 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 57E7E9CE
+P 6350 1500
+F 0 "R?" V 6143 1500 50  0000 C CNN
+F 1 "1K" V 6234 1500 50  0000 C CNN
+F 2 "" V 6280 1500 50  0000 C CNN
+F 3 "" H 6350 1500 50  0000 C CNN
+	1    6350 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 57E7EE65
+P 8600 1250
+F 0 "R?" H 8530 1204 50  0000 R CNN
+F 1 "100K" H 8530 1295 50  0000 R CNN
+F 2 "" V 8530 1250 50  0000 C CNN
+F 3 "" H 8600 1250 50  0000 C CNN
+	1    8600 1250
+	-1   0    0    1   
+$EndComp
+$Comp
+L D_Schottky D?
+U 1 1 57E7F622
+P 4200 2350
+F 0 "D?" V 4246 2271 50  0000 R CNN
+F 1 "BAS16XV2T1G" V 4155 2271 50  0000 R CNN
+F 2 "" H 4200 2350 50  0000 C CNN
+F 3 "" H 4200 2350 50  0000 C CNN
+	1    4200 2350
+	0    -1   -1   0   
+$EndComp
+Text Label 4150 4100 0    60   ~ 0
+VCC5V0
+Text Label 3800 4750 0    60   ~ 0
+VCC5V0
+Text Label 3800 4650 0    60   ~ 0
+GND
+Text Label 3400 4850 0    60   ~ 0
+HDMI_OUT_EN
+Text Label 5050 5400 2    60   ~ 0
+GND
+Text Notes 3850 5200 0    60   ~ 0
+DNP
+$Comp
+L PTS120630V012 F?
+U 1 1 57E80AF4
+P 5750 4750
+F 0 "F?" H 5700 4900 60  0000 C CNN
+F 1 "PTS120630V012" H 6000 4700 60  0000 C CNN
+F 2 "" H 5700 4750 60  0001 C CNN
+F 3 "" H 5700 4750 60  0001 C CNN
+	1    5750 4750
+	1    0    0    -1  
+$EndComp
+Text Label 6450 4700 2    60   ~ 0
+HDMI_5V0
+Wire Wire Line
+	9000 4700 9000 4650
+Wire Wire Line
+	9000 4650 9200 4650
+Wire Wire Line
+	9200 4650 9550 4650
+Wire Wire Line
+	9200 4650 9200 5000
+Wire Wire Line
+	9000 5600 9200 5600
+Wire Wire Line
+	9200 5600 9550 5600
+Wire Wire Line
+	9200 5600 9200 5300
+Wire Wire Line
+	9950 4700 9950 4650
+Wire Wire Line
+	9950 4650 10150 4650
+Wire Wire Line
+	10150 4650 10500 4650
+Wire Wire Line
+	10150 4650 10150 5000
+Wire Wire Line
+	9950 5600 10150 5600
+Wire Wire Line
+	10150 5600 10500 5600
+Wire Wire Line
+	10150 5600 10150 5300
+Connection ~ 9200 4650
+Connection ~ 9200 5600
+Connection ~ 10150 4650
+Connection ~ 10150 5600
+Wire Wire Line
+	3800 4650 4150 4650
+Wire Wire Line
+	3800 4750 4150 4750
+Wire Wire Line
+	3400 4850 4100 4850
+Wire Wire Line
+	4100 4850 4150 4850
+Wire Wire Line
+	6900 1050 7700 1050
+Wire Wire Line
+	6250 1050 5950 1050
+Wire Wire Line
+	5950 1050 5950 1500
+Wire Wire Line
+	5950 1500 5950 1600
+Wire Wire Line
+	5950 1500 6200 1500
+Wire Wire Line
+	6500 1500 7000 1500
+Wire Wire Line
+	7700 1500 8150 1500
+Wire Wire Line
+	8150 1500 8150 1050
+Wire Wire Line
+	8000 1050 8150 1050
+Wire Wire Line
+	8150 1050 8600 1050
+Wire Wire Line
+	8600 1050 9100 1050
+Wire Wire Line
+	8600 1050 8600 1100
+Connection ~ 8150 1050
+Wire Wire Line
+	8600 1400 8600 1500
+Wire Wire Line
+	8600 1500 8850 1500
+Wire Wire Line
+	7350 1800 9100 1800
+Connection ~ 8600 1050
+Wire Wire Line
+	4200 2150 4200 2200
+Wire Wire Line
+	4750 4100 4750 4200
+Wire Wire Line
+	4150 4100 4650 4100
+Wire Wire Line
+	4650 4100 4750 4100
+Wire Wire Line
+	4650 4100 4650 4200
+Connection ~ 4650 4100
+Wire Wire Line
+	4100 4850 4100 5000
+Connection ~ 4100 4850
+Wire Wire Line
+	4100 5300 4100 5400
+Wire Wire Line
+	4100 5400 4650 5400
+Wire Wire Line
+	4650 5400 4750 5400
+Wire Wire Line
+	4750 5400 5050 5400
+Wire Wire Line
+	4750 5400 4750 5300
+Wire Wire Line
+	4650 5300 4650 5400
+Connection ~ 4650 5400
+Connection ~ 4750 5400
+Wire Wire Line
+	5250 4800 5450 4800
+Wire Wire Line
+	5450 4800 5450 4700
+Wire Wire Line
+	5250 4700 5450 4700
+Wire Wire Line
+	5450 4700 5550 4700
+Connection ~ 5450 4700
+Wire Wire Line
+	5950 4700 6450 4700
+Wire Wire Line
+	2600 6600 3300 6600
+Wire Wire Line
+	3300 6600 4200 6600
+Wire Wire Line
+	2600 6500 3100 6500
+Wire Wire Line
+	3100 6500 4200 6500
+Wire Wire Line
+	3100 6250 3100 6500
+Connection ~ 3100 6500
+Wire Wire Line
+	3300 6250 3300 6600
+Connection ~ 3300 6600
+Wire Wire Line
+	4200 6400 3550 6400
+Wire Wire Line
+	3550 6400 3550 5700
+Wire Wire Line
+	2600 5700 3100 5700
+Wire Wire Line
+	3100 5700 3300 5700
+Wire Wire Line
+	3300 5700 3550 5700
+Wire Wire Line
+	3550 5700 4150 5700
+Wire Wire Line
+	4150 5700 4150 5750
+Connection ~ 3550 5700
+Wire Wire Line
+	3100 5700 3100 5950
+Connection ~ 3100 5700
+Wire Wire Line
+	3300 5950 3300 5700
+Connection ~ 3300 5700
+Text Label 2600 5700 0    60   ~ 0
+VCC3V3
+Text Label 2600 6500 0    60   ~ 0
+HDMI_SCL
+Text Label 2600 6600 0    60   ~ 0
+HDMI_SDA
+Wire Wire Line
+	4200 6300 3850 6300
+Text Label 3850 6300 0    60   ~ 0
+GND
+Text Label 3850 6050 0    60   ~ 0
+GND
+Wire Wire Line
+	3850 6050 4150 6050
+Text Label 4750 6050 0    60   ~ 0
+GND
+Wire Wire Line
+	4750 6050 5050 6050
+Wire Wire Line
+	5050 5750 5050 5700
+Wire Wire Line
+	5050 5700 5450 5700
+Wire Wire Line
+	5450 5700 5500 5700
+Wire Wire Line
+	5800 5700 5950 5700
+Wire Wire Line
+	5950 5700 6150 5700
+Wire Wire Line
+	6150 5700 6850 5700
+Wire Wire Line
+	5450 5700 5450 6300
+Wire Wire Line
+	5450 6300 5450 6400
+Wire Wire Line
+	5450 6300 5100 6300
+Connection ~ 5450 5700
+Wire Wire Line
+	5450 6400 5100 6400
+Connection ~ 5450 6300
+Wire Wire Line
+	5950 5700 5950 6100
+Wire Wire Line
+	6150 5700 6150 6100
+Connection ~ 5950 5700
+Wire Wire Line
+	5100 6500 5950 6500
+Wire Wire Line
+	5950 6500 6850 6500
+Wire Wire Line
+	5950 6500 5950 6400
+Wire Wire Line
+	5100 6600 6150 6600
+Wire Wire Line
+	6150 6600 6850 6600
+Wire Wire Line
+	6150 6600 6150 6400
+Connection ~ 5950 6500
+Connection ~ 6150 6600
+Text Label 6850 6500 2    60   ~ 0
+HDMI_SCL_LS
+Text Label 6850 6600 2    60   ~ 0
+HDMI_SDA_LS
+Connection ~ 6150 5700
+Text Label 6850 5700 2    60   ~ 0
+HDMI_5V0
+Text Label 9100 1050 2    60   ~ 0
+HDMI_HPD
+Text Label 8850 1500 2    60   ~ 0
+GND
+Text Label 9100 1800 2    60   ~ 0
+HDMI_OUT_EN
+Wire Wire Line
+	3200 1950 3550 1950
+Wire Wire Line
+	3550 1950 3550 1600
+Wire Wire Line
+	3550 1600 5150 1600
+Wire Wire Line
+	5150 1600 5950 1600
+Connection ~ 5950 1500
+Wire Wire Line
+	5150 1600 5150 1650
+Connection ~ 5150 1600
+Wire Wire Line
+	3200 2050 3950 2050
+Text Label 3950 2050 2    60   ~ 0
+HDMI_5V0
+Wire Wire Line
+	3200 2250 3950 2250
+Wire Wire Line
+	3200 2350 3950 2350
+Text Label 3950 2350 2    60   ~ 0
+HDMI_SCL_LS
+Text Label 3950 2250 2    60   ~ 0
+HDMI_SDA_LS
+NoConn ~ 3200 2450
+Wire Wire Line
+	3200 2550 4200 2550
+Wire Wire Line
+	4200 2550 4900 2550
+Wire Wire Line
+	4200 2550 4200 2500
+Wire Wire Line
+	4200 1800 4200 1850
+Wire Wire Line
+	4200 1800 4550 1800
+Text Label 4550 1800 2    60   ~ 0
+VCC3V3
+Connection ~ 4200 2550
+Text Label 4900 2550 2    60   ~ 0
+HDMI_CEC
+Text Label 5350 2100 2    60   ~ 0
+GND
+Wire Wire Line
+	5150 1950 5150 2100
+Wire Wire Line
+	5150 2100 5350 2100
+Wire Wire Line
+	3200 2150 3250 2150
+Wire Wire Line
+	3250 2150 3250 2750
+Wire Wire Line
+	3250 2750 3250 3050
+Wire Wire Line
+	3250 3050 3250 3350
+Wire Wire Line
+	3250 3350 3250 3650
+Wire Wire Line
+	3250 3650 3250 4100
+Wire Wire Line
+	3250 3650 3200 3650
+Wire Wire Line
+	3250 2750 3200 2750
+Connection ~ 3250 2750
+Wire Wire Line
+	3200 3050 3250 3050
+Connection ~ 3250 3050
+Wire Wire Line
+	3200 3350 3250 3350
+Connection ~ 3250 3350
+Wire Wire Line
+	3250 4100 3000 4100
+Connection ~ 3250 3650
+Text Label 3000 4100 0    60   ~ 0
+GND
+Wire Wire Line
+	3200 2650 4200 2650
+Wire Wire Line
+	4200 2650 4200 2750
+Wire Wire Line
+	4200 2750 5650 2750
+Wire Wire Line
+	5650 2750 8500 2750
+Wire Wire Line
+	3200 2850 5950 2850
+Wire Wire Line
+	5950 2850 8500 2850
+Wire Wire Line
+	3200 2950 4100 2950
+Wire Wire Line
+	4100 2950 4100 3050
+Wire Wire Line
+	4100 3050 6250 3050
+Wire Wire Line
+	6250 3050 8500 3050
+Wire Wire Line
+	3200 3150 6550 3150
+Wire Wire Line
+	6550 3150 8500 3150
+Wire Wire Line
+	3200 3250 4000 3250
+Wire Wire Line
+	4000 3250 4000 3350
+Wire Wire Line
+	4000 3350 6850 3350
+Wire Wire Line
+	6850 3350 8500 3350
+Wire Wire Line
+	3200 3450 7150 3450
+Wire Wire Line
+	7150 3450 8500 3450
+Wire Wire Line
+	3200 3550 3900 3550
+Wire Wire Line
+	3900 3550 3900 3650
+Wire Wire Line
+	3900 3650 7450 3650
+Wire Wire Line
+	7450 3650 8500 3650
+Wire Wire Line
+	3200 3750 7750 3750
+Wire Wire Line
+	7750 3750 8500 3750
+Text Label 8500 2750 2    60   ~ 0
+HDMI_CLK_N
+Text Label 8500 2850 2    60   ~ 0
+HDMI_CLK_P
+Text Label 8500 3050 2    60   ~ 0
+HDMI_D0_N
+Text Label 8500 3150 2    60   ~ 0
+HDMI_D0_P
+Text Label 8500 3750 2    60   ~ 0
+HDMI_D2_P
+Text Label 8500 3450 2    60   ~ 0
+HDMI_D1_P
+Text Label 8500 3350 2    60   ~ 0
+HDMI_D1_N
+Text Label 8500 3650 2    60   ~ 0
+HDMI_D2_N
+$Comp
+L R R?
+U 1 1 57E8A0A7
+P 5650 2500
+F 0 "R?" H 5720 2546 50  0000 L CNN
+F 1 "49.9R" H 5720 2455 50  0000 L CNN
+F 2 "" V 5580 2500 50  0000 C CNN
+F 3 "" H 5650 2500 50  0000 C CNN
+	1    5650 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 57E8A320
+P 5950 2250
+F 0 "R?" H 6020 2296 50  0000 L CNN
+F 1 "49.9R" H 6020 2205 50  0000 L CNN
+F 2 "" V 5880 2250 50  0000 C CNN
+F 3 "" H 5950 2250 50  0000 C CNN
+	1    5950 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 57E8A444
+P 6250 2500
+F 0 "R?" H 6320 2546 50  0000 L CNN
+F 1 "49.9R" H 6320 2455 50  0000 L CNN
+F 2 "" V 6180 2500 50  0000 C CNN
+F 3 "" H 6250 2500 50  0000 C CNN
+	1    6250 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 57E8A4B7
+P 6550 2200
+F 0 "R?" H 6620 2246 50  0000 L CNN
+F 1 "49.9R" H 6620 2155 50  0000 L CNN
+F 2 "" V 6480 2200 50  0000 C CNN
+F 3 "" H 6550 2200 50  0000 C CNN
+	1    6550 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 57E8B258
+P 6850 2500
+F 0 "R?" H 6920 2546 50  0000 L CNN
+F 1 "49.9R" H 6920 2455 50  0000 L CNN
+F 2 "" V 6780 2500 50  0000 C CNN
+F 3 "" H 6850 2500 50  0000 C CNN
+	1    6850 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 57E8B25E
+P 7150 2250
+F 0 "R?" H 7220 2296 50  0000 L CNN
+F 1 "49.9R" H 7220 2205 50  0000 L CNN
+F 2 "" V 7080 2250 50  0000 C CNN
+F 3 "" H 7150 2250 50  0000 C CNN
+	1    7150 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 57E8B264
+P 7450 2500
+F 0 "R?" H 7520 2546 50  0000 L CNN
+F 1 "49.9R" H 7520 2455 50  0000 L CNN
+F 2 "" V 7380 2500 50  0000 C CNN
+F 3 "" H 7450 2500 50  0000 C CNN
+	1    7450 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 57E8B26A
+P 7750 2200
+F 0 "R?" H 7820 2246 50  0000 L CNN
+F 1 "49.9R" H 7820 2155 50  0000 L CNN
+F 2 "" V 7680 2200 50  0000 C CNN
+F 3 "" H 7750 2200 50  0000 C CNN
+	1    7750 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 2650 5650 2750
+Connection ~ 5650 2750
+Wire Wire Line
+	5950 2400 5950 2850
+Connection ~ 5950 2850
+Wire Wire Line
+	6250 2650 6250 3050
+Connection ~ 6250 3050
+Wire Wire Line
+	6550 2350 6550 3150
+Connection ~ 6550 3150
+Wire Wire Line
+	6850 2650 6850 3350
+Connection ~ 6850 3350
+Wire Wire Line
+	7150 2400 7150 3450
+Connection ~ 7150 3450
+Wire Wire Line
+	7450 2650 7450 3650
+Connection ~ 7450 3650
+Wire Wire Line
+	7750 2350 7750 3750
+Connection ~ 7750 3750
+Wire Wire Line
+	5650 2350 5650 2000
+Wire Wire Line
+	5650 2000 5950 2000
+Wire Wire Line
+	5950 2000 6250 2000
+Wire Wire Line
+	6250 2000 6550 2000
+Wire Wire Line
+	6550 2000 6850 2000
+Wire Wire Line
+	6850 2000 7150 2000
+Wire Wire Line
+	7150 2000 7450 2000
+Wire Wire Line
+	7450 2000 7750 2000
+Wire Wire Line
+	7750 2000 8500 2000
+Wire Wire Line
+	5950 2100 5950 2000
+Connection ~ 5950 2000
+Wire Wire Line
+	6250 2350 6250 2000
+Connection ~ 6250 2000
+Wire Wire Line
+	6550 2050 6550 2000
+Connection ~ 6550 2000
+Wire Wire Line
+	6850 2350 6850 2000
+Connection ~ 6850 2000
+Wire Wire Line
+	7150 2100 7150 2000
+Connection ~ 7150 2000
+Wire Wire Line
+	7450 2350 7450 2000
+Connection ~ 7450 2000
+Wire Wire Line
+	7750 2050 7750 2000
+Connection ~ 7750 2000
+Text Label 8500 2000 2    60   ~ 0
+VCC3V3
+Text HLabel 9100 1050 2    60   BiDi ~ 0
+HDMI_HPD
+Text HLabel 3400 4850 0    60   Input ~ 0
+HDMI_OUT_EN
+Wire Bus Line
+	8600 2600 8600 2650
+Wire Bus Line
+	8600 2650 8600 2750
+Wire Bus Line
+	8600 2750 8600 2950
+Wire Bus Line
+	8600 2950 8600 3050
+Wire Bus Line
+	8600 3050 8600 3250
+Wire Bus Line
+	8600 3250 8600 3350
+Wire Bus Line
+	8600 3350 8600 3550
+Wire Bus Line
+	8600 3550 8600 3650
+Wire Bus Line
+	8600 3650 8600 3750
+Wire Bus Line
+	8600 2600 8750 2600
+Entry Wire Line
+	8500 3750 8600 3650
+Entry Wire Line
+	8500 3650 8600 3550
+Entry Wire Line
+	8500 3450 8600 3350
+Entry Wire Line
+	8500 3350 8600 3250
+Entry Wire Line
+	8500 3150 8600 3050
+Entry Wire Line
+	8500 3050 8600 2950
+Entry Wire Line
+	8500 2850 8600 2750
+Entry Wire Line
+	8500 2750 8600 2650
+Text HLabel 8750 2600 2    60   BiDi ~ 0
+HDMI_TMDS
+$Comp
+L GND #PWR?
+U 1 1 57E95520
+P 10150 4100
+F 0 "#PWR?" H 10150 3850 50  0001 C CNN
+F 1 "GND" H 10155 3927 50  0000 C CNN
+F 2 "" H 10150 4100 50  0000 C CNN
+F 3 "" H 10150 4100 50  0000 C CNN
+	1    10150 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 4000 10150 4000
+Wire Wire Line
+	10150 4000 10150 4100
+Text Label 9750 4000 0    60   ~ 0
+GND
+Text GLabel 10150 3600 2    60   Input ~ 0
+VCC5V0
+Text GLabel 10150 3800 2    60   Input ~ 0
+VCC3V3
+Text Label 9750 3800 0    60   ~ 0
+VCC3V3
+Wire Wire Line
+	9750 3800 10150 3800
+Wire Wire Line
+	9750 3600 10150 3600
+Text Label 9750 3600 0    60   ~ 0
+VCC5V0
+Text HLabel 4900 2550 2    60   BiDi ~ 0
+HDMI_CEC
+Text HLabel 2600 6500 0    60   BiDi ~ 0
+HDMI_SCL
+Text HLabel 2600 6600 0    60   BiDi ~ 0
+HDMI_SDA
+$EndSCHEMATC
