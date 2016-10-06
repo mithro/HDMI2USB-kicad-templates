@@ -73,53 +73,53 @@ F 4 "10029449-001RLF" H 12300 5650 60  0001 C CNN "manf#"
 $EndComp
 NoConn ~ 11750 6050
 Text Label 8950 4800 2    60   ~ 0
-HDMIP_$TXn$1_D1+
+HDMIP_$TXn$1_CLK+
 Text Label 8950 4900 2    60   ~ 0
-HDMIP_$TXn$1_D1-
+HDMIP_$TXn$1_CLK-
 Text Label 8950 5100 2    60   ~ 0
-HDMIP_$TXn$1_D2+
+HDMIP_$TXn$1_D0+
 Text Label 8950 5200 2    60   ~ 0
-HDMIP_$TXn$1_D2-
+HDMIP_$TXn$1_D0-
 Text Label 8950 5400 2    60   ~ 0
-HDMIP_$TXn$1_D3+
-Text Label 8950 5500 2    60   ~ 0
-HDMIP_$TXn$1_D3-
-Text Label 8950 5700 2    60   ~ 0
-HDMIP_$TXn$1_D4+
-Text Label 8950 5800 2    60   ~ 0
-HDMIP_$TXn$1_D4-
-Text Label 5400 4800 0    60   ~ 0
-HDMI_$TXn$1_D1+
-Text Label 5400 4900 0    60   ~ 0
-HDMI_$TXn$1_D1-
-Text Label 5400 5100 0    60   ~ 0
-HDMI_$TXn$1_D2+
-Text Label 5400 5200 0    60   ~ 0
-HDMI_$TXn$1_D2-
-Text Label 5400 5400 0    60   ~ 0
-HDMI_$TXn$1_D3+
-Text Label 5400 5500 0    60   ~ 0
-HDMI_$TXn$1_D3-
-Text Label 5400 5700 0    60   ~ 0
-HDMI_$TXn$1_D4+
-Text Label 5400 5800 0    60   ~ 0
-HDMI_$TXn$1_D4-
-Text Label 10750 5650 0    60   ~ 0
 HDMIP_$TXn$1_D1+
-Text Label 10750 5850 0    60   ~ 0
+Text Label 8950 5500 2    60   ~ 0
 HDMIP_$TXn$1_D1-
-Text Label 10750 5350 0    60   ~ 0
+Text Label 8950 5700 2    60   ~ 0
 HDMIP_$TXn$1_D2+
-Text Label 10750 5550 0    60   ~ 0
+Text Label 8950 5800 2    60   ~ 0
 HDMIP_$TXn$1_D2-
+Text Label 5400 4800 0    60   ~ 0
+HDMI_$TXn$1_CLK+
+Text Label 5400 4900 0    60   ~ 0
+HDMI_$TXn$1_CLK-
+Text Label 5400 5100 0    60   ~ 0
+HDMI_$TXn$1_D0+
+Text Label 5400 5200 0    60   ~ 0
+HDMI_$TXn$1_D0-
+Text Label 5400 5400 0    60   ~ 0
+HDMI_$TXn$1_D1+
+Text Label 5400 5500 0    60   ~ 0
+HDMI_$TXn$1_D1-
+Text Label 5400 5700 0    60   ~ 0
+HDMI_$TXn$1_D2+
+Text Label 5400 5800 0    60   ~ 0
+HDMI_$TXn$1_D2-
+Text Label 10750 5650 0    60   ~ 0
+HDMIP_$TXn$1_CLK+
+Text Label 10750 5850 0    60   ~ 0
+HDMIP_$TXn$1_CLK-
+Text Label 10750 5350 0    60   ~ 0
+HDMIP_$TXn$1_D0+
+Text Label 10750 5550 0    60   ~ 0
+HDMIP_$TXn$1_D0-
 Text Label 10750 5050 0    60   ~ 0
-HDMIP_$TXn$1_D3+
+HDMIP_$TXn$1_D1+
 Text Label 10750 5250 0    60   ~ 0
-HDMIP_$TXn$1_D3-
+HDMIP_$TXn$1_D1-
 Text Label 10750 4750 0    60   ~ 0
-HDMIP_$TXn$1_D4+
+HDMIP_$TXn$1_D2+
 Text Label 10750 4950 0    60   ~ 0
-HDMIP_$TXn$1_D4-
+HDMIP_$TXn$1_D2-
 Text Label 8950 6000 2    60   ~ 0
 HDMIP_$TXn$1_SCL
 Text Label 8950 6100 2    60   ~ 0
@@ -621,21 +621,21 @@ HDMI_$TXn$1_EQ1
 Text HLabel 5850 4600 0    60   Input ~ 0
 HDMI_$TXn$1_DDC_EN
 Text HLabel 5400 4800 0    60   Input ~ 0
-HDMI_$TXn$1_D1+
+HDMI_$TXn$1_CLK+
 Text HLabel 5400 4900 0    60   Input ~ 0
-HDMI_$TXn$1_D1-
+HDMI_$TXn$1_CLK-
 Text HLabel 5400 5100 0    60   Input ~ 0
-HDMI_$TXn$1_D2+
+HDMI_$TXn$1_D0+
 Text HLabel 5400 5200 0    60   Input ~ 0
-HDMI_$TXn$1_D2-
+HDMI_$TXn$1_D0-
 Text HLabel 5400 5400 0    60   Input ~ 0
-HDMI_$TXn$1_D3+
+HDMI_$TXn$1_D1+
 Text HLabel 5400 5500 0    60   Input ~ 0
-HDMI_$TXn$1_D3-
+HDMI_$TXn$1_D1-
 Text HLabel 5400 5700 0    60   Input ~ 0
-HDMI_$TXn$1_D4+
+HDMI_$TXn$1_D2+
 Text HLabel 5400 5800 0    60   Input ~ 0
-HDMI_$TXn$1_D4-
+HDMI_$TXn$1_D2-
 Text HLabel 5850 6000 0    60   BiDi ~ 0
 HDMI_$TXn$1_SCL
 Text HLabel 5850 6100 0    60   BiDi ~ 0
