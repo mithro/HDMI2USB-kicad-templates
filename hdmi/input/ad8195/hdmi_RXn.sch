@@ -28,10 +28,10 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:hdmi2usb-pcie-artix7
-LIBS:hdmi2usb
-LIBS:HDMI2USB-cache
 LIBS:pmod-conn_6x2
+LIBS:ma78l00
+LIBS:hdmi
+LIBS:ad8195
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
