@@ -30,6 +30,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:pmod-conn_6x2
 LIBS:ma78l00
+LIBS:fdv301n
 LIBS:hdmi
 LIBS:ad8195
 EELAYER 25 0
