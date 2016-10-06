@@ -684,6 +684,10 @@ F 3 "" H 6550 1150 50  0000 C CNN
 	1    6550 1150
 	-1   0    0    -1  
 $EndComp
+Text GLabel 575  900  1    60   Input ~ 0
+VCC3V3
+Text Label 10200 5300 0    60   ~ 0
+VCC3V3
 Wire Wire Line
 	5300 2100 7150 2100
 Wire Wire Line
@@ -873,7 +877,7 @@ Wire Wire Line
 Wire Wire Line
 	6050 3800 6750 3800
 Wire Wire Line
-	700  1850 1300 1850
+	575  1850 1300 1850
 Wire Wire Line
 	2000 1850 3050 1850
 Wire Wire Line
@@ -928,9 +932,9 @@ Wire Wire Line
 Connection ~ 2050 3150
 Connection ~ 2050 2350
 Wire Wire Line
-	1300 950  700  950 
+	575  950  1300 950 
 Wire Wire Line
-	1300 2650 700  2650
+	575  2650 1300 2650
 Connection ~ 2650 1850
 Connection ~ 2650 2650
 Connection ~ 3550 950 
@@ -1086,8 +1090,8 @@ Wire Wire Line
 	6650 7100 6550 7100
 Wire Wire Line
 	6700 950  6750 950 
-Text GLabel 10100 5300 0    60   Input ~ 0
-VCC3V3
 Wire Wire Line
-	10200 5300 10100 5300
+	575  900  575  2650
+Connection ~ 575  950 
+Connection ~ 575  1850
 $EndSCHEMATC
