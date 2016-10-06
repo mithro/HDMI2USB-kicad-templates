@@ -1,4 +1,64 @@
 
+# HDMI templates
+
+## High speed speed signals
+
+ * `HDMI_D0_N`  - LVDS
+ * `HDMI_D0_P`  - LVDS
+ * `HDMI_D1_N`  - LVDS
+ * `HDMI_D1_P`  - LVDS
+ * `HDMI_D2_N`  - LVDS
+ * `HDMI_D2_P`  - LVDS
+
+ * `HDMI_CLK_N` / `HDMI_D4_N` - LVDS
+ * `HDMI_CLK_P` / `HDMI_D4_P` - LVDS
+
+## Low speed signals
+
+ * `HDMI_CEC` - LVCMOS
+
+ * `HDMI_SDA` - LVCMOS
+ * `HDMI_SCL` - LVCMOS
+
+ * `HDMI_HPD` - LVCMOS
+
+## Aux Control signals
+
+### PTN3363
+
+ * `HDMI_AUX0` - EQ0
+ * `HDMI_AUX1` - EQ1
+ * `HDMI_AUX2` - DDC_EN
+ * `HDMI_AUX3` - DDET
+ * `?????????` - OE_N
+ * `?????????` - HIZ_EN
+
+### AD8195
+
+ * `HDMI_RX_TXEN`
+ * `HDMI_RX_PEEN`
+
+### TMDS141
+ * `I2CEN`
+ * `OE`
+ * `PRE`
+ * `OVS`
+
+### Unbuffered BiDir
+ * `HDMI_OUT_EN`
+
+### Random
+
+ * `HDMI_AUX0` - Enable
+ * `HDMI_AUX1` - Control/measurement SDA
+ * `HDMI_AUX2` - Control/measurement SCL
+ * `HDMI_AUX3` - NC
+
+## Questions
+
+ * What about HEAC?
+
+
 
 ### hdmi/bidir/unbuffered 
 
@@ -39,5 +99,4 @@ Used on the AXIOM Beta Module
 
  * Known working at 1080p60 with Hamster's design
  * Uses a TMDS141RHAR
-
 
