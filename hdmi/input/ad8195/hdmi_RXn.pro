@@ -23,9 +23,11 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
-LibDir=../../libraries;../
+LibDir=../../libraries;../../../libraries
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -56,8 +58,7 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=hdmi2usb-pcie-artix7
-LibName31=hdmi2usb
-LibName32=HDMI2USB-cache
-[general]
-version=1
+LibName30=pmod-conn_6x2
+LibName31=ma78l00
+LibName32=hdmi
+LibName33=ad8195
