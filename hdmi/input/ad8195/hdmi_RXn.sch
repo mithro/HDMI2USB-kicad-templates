@@ -89,28 +89,6 @@ GND
 Text Label 5550 2800 2    60   ~ 0
 GND
 $Comp
-L DIODE D$RXn$102
-U 1 1 57C080EA
-P 6550 950
-F 0 "D$RXn$102" H 6550 1050 50  0000 C CNN
-F 1 "DIODE" H 6750 950 50  0001 C CNN
-F 2 "" H 6550 950 60  0001 C CNN
-F 3 "" H 6550 950 60  0000 C CNN
-	1    6550 950 
-	1    0    0    -1  
-$EndComp
-$Comp
-L DIODE D$RXn$103
-U 1 1 57C0814D
-P 6550 1150
-F 0 "D$RXn$103" H 6550 1050 50  0000 C CNN
-F 1 "DIODE" H 6750 1150 50  0001 C CNN
-F 2 "" H 6550 1150 60  0001 C CNN
-F 3 "" H 6550 1150 60  0000 C CNN
-	1    6550 1150
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR102
 U 1 1 57C0819F
 P 7850 4300
@@ -267,17 +245,6 @@ F 2 "Resistors_SMD:R_0402" V 10280 5750 30  0001 C CNN
 F 3 "" H 10350 5750 30  0000 C CNN
 	1    10350 5750
 	-1   0    0    1   
-$EndComp
-$Comp
-L VCC3V3 #PWR103
-U 1 1 57C0DF7C
-P 10200 5300
-F 0 "#PWR103" H 10200 5150 60  0001 C CNN
-F 1 "VCC3V3" H 10200 5440 60  0000 C CNN
-F 2 "" H 10200 5300 60  0000 C CNN
-F 3 "" H 10200 5300 60  0000 C CNN
-	1    10200 5300
-	1    0    0    -1  
 $EndComp
 Text Label 10200 4150 0    60   ~ 0
 VCC5V0_$RXn$1
@@ -650,6 +617,73 @@ Text Label 6750 1750 0    60   ~ 0
 GND
 Text HLabel 1500 6600 0    60   Input ~ 0
 HDMI_$RXn$1_HPA
+Text Notes 615  11035 0    197  ~ 39
+$WARNING1$\n$WARNING2$\n$WARNING3$
+Text Label 4820 6600 0    60   ~ 0
+HDMI_$RXn$1_CEC
+Text Label 7560 6700 2    60   ~ 0
+HDMI_$RXn$1_IO1
+Text Label 7560 6800 2    60   ~ 0
+HDMI_$RXn$1_TXEN
+Text Label 7560 6900 2    60   ~ 0
+HDMI_$RXn$1_PEEN
+Text Label 7560 6600 2    60   ~ 0
+HDMI_$RXn$1_IO0
+Text HLabel 7560 6600 2    60   BiDi ~ 0
+HDMI_$RXn$1_IO0
+Text HLabel 7560 6700 2    60   BiDi ~ 0
+HDMI_$RXn$1_IO1
+Text HLabel 10100 2100 2    60   Output ~ 0
+HDMI_$RXn$1_D4+
+Text HLabel 10100 2200 2    60   Output ~ 0
+HDMI_$RXn$1_D4-
+Text HLabel 10100 2400 2    60   Output ~ 0
+HDMI_$RXn$1_D3+
+Text HLabel 10100 2500 2    60   Output ~ 0
+HDMI_$RXn$1_D3-
+Text HLabel 10100 2700 2    60   Output ~ 0
+HDMI_$RXn$1_D2+
+Text HLabel 10100 2800 2    60   Output ~ 0
+HDMI_$RXn$1_D2-
+Text HLabel 10100 3000 2    60   Output ~ 0
+HDMI_$RXn$1_D1+
+Text HLabel 10100 3100 2    60   Output ~ 0
+HDMI_$RXn$1_D1-
+Text GLabel 6200 950  0    60   Input ~ 0
+VCC5V0
+$Comp
+L PMOD-CONN_6X2 P$RXn$1
+U 1 1 57F5C249
+P 6150 6850
+F 0 "P$RXn$1" H 6150 7200 60  0000 C CNN
+F 1 "PMOD-CONN_6X2" V 6150 6850 39  0000 C CNN
+F 2 "" H 6150 6850 60  0000 C CNN
+F 3 "" H 6150 6850 60  0000 C CNN
+	1    6150 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L D D$RXn$102
+U 1 1 57F5E29C
+P 6550 950
+F 0 "D$RXn$102" H 6550 1050 50  0000 C CNN
+F 1 "D" H 6550 850 50  0001 C CNN
+F 2 "" H 6550 950 50  0000 C CNN
+F 3 "" H 6550 950 50  0000 C CNN
+	1    6550 950 
+	-1   0    0    -1  
+$EndComp
+$Comp
+L D D$RXn$103
+U 1 1 57F5E7B1
+P 6550 1150
+F 0 "D$RXn$103" H 6550 1250 50  0000 C CNN
+F 1 "D" H 6550 1050 50  0001 C CNN
+F 2 "" H 6550 1150 50  0000 C CNN
+F 3 "" H 6550 1150 50  0000 C CNN
+	1    6550 1150
+	-1   0    0    -1  
+$EndComp
 Wire Wire Line
 	5300 2100 7150 2100
 Wire Wire Line
@@ -681,9 +715,7 @@ Wire Wire Line
 Wire Wire Line
 	6150 3200 6150 3100
 Wire Wire Line
-	5800 3100 6150 3100
-Wire Wire Line
-	6150 3100 7150 3100
+	5800 3100 7150 3100
 Wire Wire Line
 	5300 3300 6250 3300
 Wire Wire Line
@@ -712,19 +744,9 @@ Wire Wire Line
 Wire Wire Line
 	5300 2800 5550 2800
 Wire Wire Line
-	7850 4150 7850 4250
+	7850 4150 7850 4300
 Wire Wire Line
-	7850 4250 7850 4300
-Wire Wire Line
-	9050 4250 8300 4250
-Wire Wire Line
-	8300 4250 8150 4250
-Wire Wire Line
-	8150 4250 8000 4250
-Wire Wire Line
-	8000 4250 7850 4250
-Wire Wire Line
-	7850 4250 7600 4250
+	7600 4250 9050 4250
 Wire Wire Line
 	8300 4250 8300 4150
 Connection ~ 7850 4250
@@ -737,18 +759,12 @@ Connection ~ 8000 4250
 Wire Wire Line
 	9050 3650 9050 3850
 Wire Wire Line
-	9050 4150 9050 4250
+	9050 4250 9050 4150
 Connection ~ 8300 4250
 Wire Wire Line
-	6750 950  6750 1150
+	6750 950  6750 1350
 Wire Wire Line
-	6750 1150 6750 1350
-Wire Wire Line
-	6750 1150 6950 1150
-Wire Wire Line
-	6950 1150 7100 1150
-Wire Wire Line
-	7100 1150 7550 1150
+	6700 1150 7550 1150
 Wire Wire Line
 	7550 1150 7550 1400
 Wire Wire Line
@@ -766,17 +782,7 @@ Connection ~ 6850 1750
 Wire Wire Line
 	7750 1250 7750 1400
 Wire Wire Line
-	7750 1250 7850 1250
-Wire Wire Line
-	7850 1250 7950 1250
-Wire Wire Line
-	7950 1250 8050 1250
-Wire Wire Line
-	8050 1250 8150 1250
-Wire Wire Line
-	8150 1250 8250 1250
-Wire Wire Line
-	8250 1250 8350 1250
+	7750 1250 8350 1250
 Wire Wire Line
 	8350 1250 8350 1400
 Wire Wire Line
@@ -786,9 +792,7 @@ Wire Wire Line
 	7950 1400 7950 1250
 Connection ~ 7950 1250
 Wire Wire Line
-	8050 1050 8050 1250
-Wire Wire Line
-	8050 1250 8050 1400
+	8050 1050 8050 1400
 Connection ~ 8050 1250
 Wire Wire Line
 	8150 1400 8150 1250
@@ -847,27 +851,23 @@ Wire Wire Line
 Wire Wire Line
 	10350 5900 10350 6150
 Wire Wire Line
-	10200 5300 10200 5400
-Wire Wire Line
-	10200 5400 10200 5600
+	10200 5300 10200 5600
 Wire Wire Line
 	10200 5400 10350 5400
 Wire Wire Line
 	10350 5400 10350 5600
 Connection ~ 10200 5400
 Wire Wire Line
-	10200 4150 10200 4250
-Wire Wire Line
-	10200 4250 10200 4450
+	10200 4150 10200 4450
 Wire Wire Line
 	10200 4250 10350 4250
 Wire Wire Line
 	10350 4250 10350 4450
 Connection ~ 10200 4250
 Wire Wire Line
-	6200 1150 6350 1150
+	6200 1150 6400 1150
 Wire Wire Line
-	6200 950  6350 950 
+	6200 950  6400 950 
 Wire Wire Line
 	5300 3800 5350 3800
 Wire Wire Line
@@ -875,13 +875,7 @@ Wire Wire Line
 Wire Wire Line
 	700  1850 1300 1850
 Wire Wire Line
-	2000 1850 2050 1850
-Wire Wire Line
-	2050 1850 2350 1850
-Wire Wire Line
-	2350 1850 2650 1850
-Wire Wire Line
-	2650 1850 3050 1850
+	2000 1850 3050 1850
 Wire Wire Line
 	2650 1850 2650 2000
 Wire Wire Line
@@ -891,13 +885,7 @@ Wire Wire Line
 	2050 1850 2050 2000
 Connection ~ 2050 1850
 Wire Wire Line
-	2000 2650 2050 2650
-Wire Wire Line
-	2050 2650 2350 2650
-Wire Wire Line
-	2350 2650 2650 2650
-Wire Wire Line
-	2650 2650 3050 2650
+	2000 2650 3050 2650
 Wire Wire Line
 	2650 2650 2650 2800
 Wire Wire Line
@@ -907,19 +895,7 @@ Wire Wire Line
 	2050 2800 2050 2650
 Connection ~ 2050 2650
 Wire Wire Line
-	2000 950  2050 950 
-Wire Wire Line
-	2050 950  2350 950 
-Wire Wire Line
-	2350 950  2650 950 
-Wire Wire Line
-	2650 950  2950 950 
-Wire Wire Line
-	2950 950  3250 950 
-Wire Wire Line
-	3250 950  3550 950 
-Wire Wire Line
-	3550 950  4000 950 
+	2000 950  4000 950 
 Wire Wire Line
 	3550 950  3550 1100
 Wire Wire Line
@@ -938,35 +914,17 @@ Wire Wire Line
 	2050 950  2050 1100
 Connection ~ 2050 950 
 Wire Wire Line
-	700  1450 2050 1450
-Wire Wire Line
-	2050 1450 2350 1450
-Wire Wire Line
-	2350 1450 2650 1450
-Wire Wire Line
-	2650 1450 2950 1450
-Wire Wire Line
-	2950 1450 3250 1450
-Wire Wire Line
-	3250 1450 3550 1450
+	700  1450 3550 1450
 Connection ~ 3250 1450
 Connection ~ 2950 1450
 Connection ~ 2650 1450
 Connection ~ 2350 1450
 Connection ~ 2050 1450
 Wire Wire Line
-	700  2350 2050 2350
-Wire Wire Line
-	2050 2350 2350 2350
-Wire Wire Line
-	2350 2350 2650 2350
+	700  2350 2650 2350
 Connection ~ 2350 2350
 Wire Wire Line
-	700  3150 2050 3150
-Wire Wire Line
-	2050 3150 2350 3150
-Wire Wire Line
-	2350 3150 2650 3150
+	700  3150 2650 3150
 Connection ~ 2050 3150
 Connection ~ 2050 2350
 Wire Wire Line
@@ -983,24 +941,18 @@ Wire Wire Line
 Wire Wire Line
 	6950 3650 6950 4900
 Wire Wire Line
-	6950 4900 6600 4900
-Wire Wire Line
-	6600 4900 6050 4900
+	6950 4900 6050 4900
 Wire Wire Line
 	7150 3750 7050 3750
 Wire Wire Line
 	7050 3750 7050 5000
 Wire Wire Line
-	7050 5000 6300 5000
-Wire Wire Line
-	6300 5000 6050 5000
+	7050 5000 6050 5000
 Wire Wire Line
 	6600 4900 6600 5150
 Connection ~ 6600 4900
 Wire Wire Line
-	6300 4850 6300 5000
-Wire Wire Line
-	6300 5000 6300 5150
+	6300 4850 6300 5150
 Connection ~ 6300 5000
 Wire Wire Line
 	6050 4400 6300 4400
@@ -1013,36 +965,24 @@ Wire Wire Line
 Wire Wire Line
 	6300 5550 6000 5550
 Wire Wire Line
-	5750 7000 5560 7000
+	5170 7000 5750 7000
 Wire Wire Line
-	5560 7000 5170 7000
-Wire Wire Line
-	5750 7100 5520 7100
-Wire Wire Line
-	5520 7100 5170 7100
+	5170 7100 5750 7100
 Wire Wire Line
 	4820 6700 5750 6700
 Wire Wire Line
 	4820 6800 5750 6800
 Wire Wire Line
-	1500 6600 2100 6600
-Wire Wire Line
-	2100 6600 2300 6600
+	1500 6600 2300 6600
 Wire Wire Line
 	2100 6600 2100 6750
 Connection ~ 2100 6600
 Wire Wire Line
-	1500 7150 2100 7150
-Wire Wire Line
-	2100 7150 2500 7150
-Wire Wire Line
-	2500 7150 3100 7150
+	1500 7150 3100 7150
 Wire Wire Line
 	2500 6400 2500 6300
 Wire Wire Line
-	2500 6300 2600 6300
-Wire Wire Line
-	2600 6300 2900 6300
+	2500 6300 2900 6300
 Wire Wire Line
 	2600 6150 2600 6300
 Connection ~ 2600 6300
@@ -1051,9 +991,7 @@ Wire Wire Line
 Wire Wire Line
 	3100 4800 3100 5600
 Wire Wire Line
-	3100 5900 3100 6050
-Wire Wire Line
-	3100 6050 3100 6100
+	3100 5900 3100 6100
 Wire Wire Line
 	3100 6050 3950 6050
 Connection ~ 3100 6050
@@ -1074,11 +1012,7 @@ Connection ~ 2500 7150
 Wire Wire Line
 	4150 4800 4150 4850
 Wire Wire Line
-	1900 4800 2600 4800
-Wire Wire Line
-	2600 4800 3100 4800
-Wire Wire Line
-	3100 4800 4150 4800
+	1900 4800 4150 4800
 Connection ~ 3100 4800
 Connection ~ 2600 4800
 Wire Wire Line
@@ -1090,9 +1024,7 @@ Wire Wire Line
 Wire Wire Line
 	6750 1650 6750 1750
 Wire Wire Line
-	6750 1750 6850 1750
-Wire Wire Line
-	6850 1750 6950 1750
+	6750 1750 6950 1750
 Wire Wire Line
 	6950 1750 6950 1650
 Wire Wire Line
@@ -1124,12 +1056,8 @@ Wire Wire Line
 	2050 3100 2050 3150
 Wire Wire Line
 	2650 1400 2650 1450
-Text Notes 615  11035 0    197  ~ 39
-$WARNING1$\n$WARNING2$\n$WARNING3$
 Wire Wire Line
 	5750 6600 4820 6600
-Text Label 4820 6600 0    60   ~ 0
-HDMI_$RXn$1_CEC
 Wire Wire Line
 	5560 7000 5560 7220
 Wire Wire Line
@@ -1144,12 +1072,6 @@ Wire Wire Line
 Wire Wire Line
 	5520 7285 6650 7285
 Connection ~ 5520 7100
-Text Label 7560 6700 2    60   ~ 0
-HDMI_$RXn$1_IO1
-Text Label 7560 6800 2    60   ~ 0
-HDMI_$RXn$1_TXEN
-Text Label 7560 6900 2    60   ~ 0
-HDMI_$RXn$1_PEEN
 Wire Wire Line
 	6550 6700 7560 6700
 Wire Wire Line
@@ -1158,43 +1080,14 @@ Wire Wire Line
 	6550 6900 7560 6900
 Wire Wire Line
 	7560 6600 6550 6600
-Text Label 7560 6600 2    60   ~ 0
-HDMI_$RXn$1_IO0
-Text HLabel 7560 6600 2    60   BiDi ~ 0
-HDMI_$RXn$1_IO0
-Text HLabel 7560 6700 2    60   BiDi ~ 0
-HDMI_$RXn$1_IO1
 Wire Wire Line
 	6650 7285 6650 7100
 Wire Wire Line
 	6650 7100 6550 7100
-Text HLabel 10100 2100 2    60   Output ~ 0
-HDMI_$RXn$1_D4+
-Text HLabel 10100 2200 2    60   Output ~ 0
-HDMI_$RXn$1_D4-
-Text HLabel 10100 2400 2    60   Output ~ 0
-HDMI_$RXn$1_D3+
-Text HLabel 10100 2500 2    60   Output ~ 0
-HDMI_$RXn$1_D3-
-Text HLabel 10100 2700 2    60   Output ~ 0
-HDMI_$RXn$1_D2+
-Text HLabel 10100 2800 2    60   Output ~ 0
-HDMI_$RXn$1_D2-
-Text HLabel 10100 3000 2    60   Output ~ 0
-HDMI_$RXn$1_D1+
-Text HLabel 10100 3100 2    60   Output ~ 0
-HDMI_$RXn$1_D1-
-Text GLabel 6200 950  0    60   Input ~ 0
-VCC5V0
-$Comp
-L PMOD-CONN_6X2 P$RXn$1
-U 1 1 57F5C249
-P 6150 6850
-F 0 "P$RXn$1" H 6150 7200 60  0000 C CNN
-F 1 "PMOD-CONN_6X2" V 6150 6850 39  0000 C CNN
-F 2 "" H 6150 6850 60  0000 C CNN
-F 3 "" H 6150 6850 60  0000 C CNN
-	1    6150 6850
-	1    0    0    -1  
-$EndComp
+Wire Wire Line
+	6700 950  6750 950 
+Text GLabel 10100 5300 0    60   Input ~ 0
+VCC3V3
+Wire Wire Line
+	10200 5300 10100 5300
 $EndSCHEMATC
