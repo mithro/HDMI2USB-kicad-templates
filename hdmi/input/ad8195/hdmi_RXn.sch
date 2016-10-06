@@ -149,21 +149,21 @@ Text Label 6750 3800 2    60   ~ 0
 VCC5V0_$RXn$1
 NoConn ~ 5300 3400
 Text Label 10100 3000 2    60   ~ 0
-HDMI_$RXn$1_D1+
+HDMI_$RXn$1_CLK+
 Text Label 10100 3100 2    60   ~ 0
-HDMI_$RXn$1_D1-
+HDMI_$RXn$1_CLK-
 Text Label 10100 2800 2    60   ~ 0
-HDMI_$RXn$1_D2-
+HDMI_$RXn$1_D0-
 Text Label 10100 2700 2    60   ~ 0
-HDMI_$RXn$1_D2+
+HDMI_$RXn$1_D0+
 Text Label 10100 2500 2    60   ~ 0
-HDMI_$RXn$1_D3-
+HDMI_$RXn$1_D1-
 Text Label 10100 2400 2    60   ~ 0
-HDMI_$RXn$1_D3+
+HDMI_$RXn$1_D1+
 Text Label 10100 2200 2    60   ~ 0
-HDMI_$RXn$1_D4-
+HDMI_$RXn$1_D2-
 Text Label 10100 2100 2    60   ~ 0
-HDMI_$RXn$1_D4+
+HDMI_$RXn$1_D2+
 Text Label 10100 3250 2    60   ~ 0
 HDMI_$RXn$1_CEC
 Text Label 10100 3400 2    60   ~ 0
@@ -171,21 +171,21 @@ HDMI_$RXn$1_SCL
 Text Label 10100 3500 2    60   ~ 0
 HDMI_$RXn$1_SDA
 Text Label 7150 2100 2    60   ~ 0
-HDMIP_$RXn$1_D4+
-Text Label 7150 2200 2    60   ~ 0
-HDMIP_$RXn$1_D4-
-Text Label 7150 2400 2    60   ~ 0
-HDMIP_$RXn$1_D3+
-Text Label 7150 2500 2    60   ~ 0
-HDMIP_$RXn$1_D3-
-Text Label 7150 2700 2    60   ~ 0
 HDMIP_$RXn$1_D2+
-Text Label 7150 2800 2    60   ~ 0
+Text Label 7150 2200 2    60   ~ 0
 HDMIP_$RXn$1_D2-
-Text Label 7150 3000 2    60   ~ 0
+Text Label 7150 2400 2    60   ~ 0
 HDMIP_$RXn$1_D1+
-Text Label 7150 3100 2    60   ~ 0
+Text Label 7150 2500 2    60   ~ 0
 HDMIP_$RXn$1_D1-
+Text Label 7150 2700 2    60   ~ 0
+HDMIP_$RXn$1_D0+
+Text Label 7150 2800 2    60   ~ 0
+HDMIP_$RXn$1_D0-
+Text Label 7150 3000 2    60   ~ 0
+HDMIP_$RXn$1_CLK+
+Text Label 7150 3100 2    60   ~ 0
+HDMIP_$RXn$1_CLK-
 Text Label 5500 3700 2    60   ~ 0
 GND
 Text Label 7150 3400 2    60   ~ 0
@@ -634,21 +634,21 @@ HDMI_$RXn$1_IO0
 Text HLabel 7560 6700 2    60   BiDi ~ 0
 HDMI_$RXn$1_IO1
 Text HLabel 10100 2100 2    60   Output ~ 0
-HDMI_$RXn$1_D4+
-Text HLabel 10100 2200 2    60   Output ~ 0
-HDMI_$RXn$1_D4-
-Text HLabel 10100 2400 2    60   Output ~ 0
-HDMI_$RXn$1_D3+
-Text HLabel 10100 2500 2    60   Output ~ 0
-HDMI_$RXn$1_D3-
-Text HLabel 10100 2700 2    60   Output ~ 0
 HDMI_$RXn$1_D2+
-Text HLabel 10100 2800 2    60   Output ~ 0
+Text HLabel 10100 2200 2    60   Output ~ 0
 HDMI_$RXn$1_D2-
-Text HLabel 10100 3000 2    60   Output ~ 0
+Text HLabel 10100 2400 2    60   Output ~ 0
 HDMI_$RXn$1_D1+
-Text HLabel 10100 3100 2    60   Output ~ 0
+Text HLabel 10100 2500 2    60   Output ~ 0
 HDMI_$RXn$1_D1-
+Text HLabel 10100 2700 2    60   Output ~ 0
+HDMI_$RXn$1_D0+
+Text HLabel 10100 2800 2    60   Output ~ 0
+HDMI_$RXn$1_D0-
+Text HLabel 10100 3000 2    60   Output ~ 0
+HDMI_$RXn$1_CLK+
+Text HLabel 10100 3100 2    60   Output ~ 0
+HDMI_$RXn$1_CLK-
 Text GLabel 6200 950  0    60   Input ~ 0
 VCC5V0
 $Comp
