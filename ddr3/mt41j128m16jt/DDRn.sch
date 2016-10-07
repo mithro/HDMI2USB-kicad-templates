@@ -1376,4 +1376,6 @@ $DDRn$10V75
 Connection ~ 8525 13400
 Wire Wire Line
 	3300 14650 3300 14550
+Text Notes 11300 7050 0    120  ~ 24
+Note:\n\nAll RD* resistors are 0402 package, 1% tolerance and 1/4 Watts\n\nAll CD* capacitors can be any ceramics with 10% and 5V tolerances. Package is 0402. X5R and\nX7R capacitors are fine. Common example would be 0.1uF, 25V, X5R, 0402 capacitor.
 $EndSCHEMATC
