@@ -25,7 +25,7 @@ version=1
 NetIExt=net
 [eeschema]
 version=1
-LibDir=../../libraries;../
+LibDir=../../libraries;../libraries
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -56,8 +56,6 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=hdmi2usb-pcie-artix7
-LibName31=hdmi2usb
-LibName32=HDMI2USB-cache
+LibName30=ddr
 [general]
 version=1
