@@ -32,7 +32,6 @@ LIBS:pmod-conn_6x2
 LIBS:ma78l00
 LIBS:hdmi
 LIBS:ptn3363
-LIBS:hdmi_TXn-cache
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
@@ -802,7 +801,7 @@ F 1 "PMOD-CONN_6X2" V 3265 6820 39  0000 C CNN
 F 2 "" H 3265 6820 60  0000 C CNN
 F 3 "" H 3265 6820 60  0000 C CNN
 	1    3265 6820
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 Text Label 10600 4450 0    60   ~ 0
 VCC3V3
