@@ -1,6 +1,14 @@
 
 # HDMI templates
 
+## Power needed
+
+ * All HDMI need;
+  * VCCIO - Normally VCC3V3
+  * VCC5V0 - For the +5V pin
+
+Generally for TX you want the VCC5V0 output to be protected.
+
 ## High speed speed signals
 
  * `HDMI_D0_N` - LVDS
