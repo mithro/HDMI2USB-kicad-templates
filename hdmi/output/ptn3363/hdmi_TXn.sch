@@ -253,7 +253,15 @@ Wire Wire Line
 Wire Wire Line
 	11750 4850 11600 4850
 Wire Wire Line
-	11600 4850 11600 6900
+	11600 4850 11600 5150
+Wire Wire Line
+	11600 5150 11600 5450
+Wire Wire Line
+	11600 5450 11600 5750
+Wire Wire Line
+	11600 5750 11600 6350
+Wire Wire Line
+	11600 6350 11600 6900
 Wire Wire Line
 	11750 5150 11600 5150
 Connection ~ 11600 5150
@@ -290,11 +298,15 @@ Wire Wire Line
 Wire Wire Line
 	6400 5800 6750 5800
 Wire Wire Line
-	8150 6600 9000 6600
+	8150 6600 8550 6600
+Wire Wire Line
+	8550 6600 9000 6600
 Wire Wire Line
 	8150 6400 9000 6400
 Wire Wire Line
-	7400 3750 7500 3750
+	7400 3750 7450 3750
+Wire Wire Line
+	7450 3750 7500 3750
 Wire Wire Line
 	7450 3200 7450 3750
 Connection ~ 7450 3750
@@ -302,7 +314,9 @@ Wire Wire Line
 	11750 6350 11600 6350
 Connection ~ 11600 6350
 Wire Wire Line
-	9800 5950 11750 5950
+	9800 5950 10600 5950
+Wire Wire Line
+	10600 5950 11750 5950
 Wire Wire Line
 	10600 5950 10600 5590
 Wire Wire Line
@@ -369,7 +383,9 @@ Wire Wire Line
 Wire Wire Line
 	4000 4100 4000 4250
 Wire Wire Line
-	3900 4100 4000 4100
+	3900 4100 3950 4100
+Wire Wire Line
+	3950 4100 4000 4100
 Text Label 3800 5900 2    60   ~ 0
 HDMIP_$TXn$1_SCL
 Text Label 3800 6000 2    60   ~ 0
@@ -477,7 +493,9 @@ Wire Wire Line
 Wire Wire Line
 	3900 5300 3900 5450
 Wire Wire Line
-	3900 5300 4000 5300
+	3900 5300 3950 5300
+Wire Wire Line
+	3950 5300 4000 5300
 Wire Wire Line
 	4000 5300 4000 5450
 Wire Wire Line
@@ -553,7 +571,9 @@ F 5 "GRM155R71C104KA88D" H 8300 3850 60  0001 C CNN "manf#"
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	8300 3600 8500 3600
+	8300 3600 8400 3600
+Wire Wire Line
+	8400 3600 8500 3600
 Wire Wire Line
 	8300 3600 8300 3700
 Wire Wire Line
@@ -562,7 +582,9 @@ Connection ~ 8400 3600
 Wire Wire Line
 	8300 4000 8300 4100
 Wire Wire Line
-	8300 4100 8500 4100
+	8300 4100 8400 4100
+Wire Wire Line
+	8400 4100 8500 4100
 Wire Wire Line
 	8500 4100 8500 4000
 $Comp
@@ -582,11 +604,11 @@ Connection ~ 8400 4100
 Connection ~ 8550 6600
 Text Label 9000 6400 2    60   ~ 0
 HDMI_$TXn$1_HIZ_EN
-Text Label 1885 6870 0    60   ~ 0
+Text Label 4685 6670 2    60   ~ 0
 HDMI_$TXn$1_HPD
-Text Label 1885 6670 0    60   ~ 0
+Text Label 4685 6570 2    60   ~ 0
 HDMI_$TXn$1_SCL
-Text Label 1885 6770 0    60   ~ 0
+Text Label 1885 6670 0    60   ~ 0
 HDMI_$TXn$1_SDA
 $Comp
 L GND #PWR101
@@ -646,9 +668,13 @@ Wire Wire Line
 Text Notes 670  10960 0    197  ~ 39
 $WARNING1$\n$WARNING2$\n$WARNING3$
 Wire Wire Line
-	2255 6970 2865 6970
+	2255 6970 2325 6970
 Wire Wire Line
-	2725 7070 2865 7070
+	2325 6970 2865 6970
+Wire Wire Line
+	2725 7070 2770 7070
+Wire Wire Line
+	2770 7070 2865 7070
 Wire Wire Line
 	2865 6570 1885 6570
 Text Label 1885 6570 0    60   ~ 0
@@ -671,21 +697,21 @@ Wire Wire Line
 Wire Wire Line
 	3755 6970 3665 6970
 Connection ~ 2325 6970
-Text Label 4685 6865 2    60   ~ 0
+Text Label 4685 6870 2    60   ~ 0
 HDMI_$TXn$1_DDET
-Text Label 4685 6665 2    60   ~ 0
+Text Label 1885 6770 0    60   ~ 0
 HDMI_$TXn$1_EQ1
-Text Label 4685 6765 2    60   ~ 0
+Text Label 1885 6870 0    60   ~ 0
 HDMI_$TXn$1_DDC_EN
 Wire Wire Line
-	4685 6865 3665 6870
+	4685 6870 3665 6870
 Wire Wire Line
-	4685 6765 3665 6770
+	4685 6770 3665 6770
 Wire Wire Line
-	4685 6665 3665 6670
+	4685 6670 3665 6670
 Wire Wire Line
-	4685 6565 3665 6570
-Text Label 4685 6565 2    60   ~ 0
+	4685 6570 3665 6570
+Text Label 4685 6770 2    60   ~ 0
 HDMI_$TXn$1_EQ0
 $Comp
 L C_Small C$TXn$103
@@ -791,7 +817,9 @@ $TXn$15V0
 Text GLabel 7025 2975 0    60   Input ~ 0
 $TXn$15V0
 Wire Wire Line
-	7025 3200 8400 3200
+	7025 3200 7450 3200
+Wire Wire Line
+	7450 3200 8400 3200
 Wire Wire Line
 	8400 3200 8400 3600
 Connection ~ 7450 3200
