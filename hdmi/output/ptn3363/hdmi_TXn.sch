@@ -132,9 +132,9 @@ HDMIP_$TXn$1_SDA
 Text Label 10750 6450 0    60   ~ 0
 $TXn$15V0
 Text Label 9000 6600 2    60   ~ 0
-HDMIP_$TXn$1_HPD
+HDMIP_$TXn$1_HOT
 Text Label 10750 6550 0    60   ~ 0
-HDMIP_$TXn$1_HPD
+HDMIP_$TXn$1_HOT
 $Comp
 L GND #PWR106
 U 1 1 57B7C214
@@ -458,7 +458,7 @@ $EndComp
 Wire Wire Line
 	6500 7150 6500 7150
 Text Label 5700 6600 0    60   ~ 0
-HDMI_$TXn$1_HPD
+HDMI_$TXn$1_HOT
 Text Label 3800 4700 2    60   ~ 0
 HDMI_$TXn$1_SCL
 Text Label 3800 4800 2    60   ~ 0
@@ -604,7 +604,7 @@ Connection ~ 8550 6600
 Text Label 9000 6400 2    60   ~ 0
 HDMI_$TXn$1_HIZ_EN
 Text Label 4685 6670 2    60   ~ 0
-HDMI_$TXn$1_HPD
+HDMI_$TXn$1_HOT
 Text Label 4685 6570 2    60   ~ 0
 HDMI_$TXn$1_SCL
 Text Label 1885 6670 0    60   ~ 0
@@ -657,7 +657,7 @@ HDMI_$TXn$1_SDA
 Text HLabel 5700 6400 0    60   Input ~ 0
 HDMI_$TXn$1_DDET
 Text HLabel 5700 6600 0    60   Output ~ 0
-HDMI_$TXn$1_HPD
+HDMI_$TXn$1_HOT
 Text HLabel 9000 6400 2    60   Input ~ 0
 HDMI_$TXn$1_HIZ_EN
 Text HLabel 9800 5950 0    60   Input ~ 0

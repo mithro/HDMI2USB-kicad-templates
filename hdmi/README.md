@@ -28,7 +28,7 @@ Generally for TX you want the VCC5V0 output to be protected.
  * `HDMI_SDA` - LVCMOS
  * `HDMI_SCL` - LVCMOS
 
- * `HDMI_HPD` - LVCMOS
+ * `HDMI_HOT` - LVCMOS
 
 ## Aux Control signals
 

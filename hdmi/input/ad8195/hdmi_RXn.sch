@@ -646,11 +646,11 @@ $EndComp
 Text Label 1900 4800 0    60   ~ 0
 VCC5V0_$RXn$1
 Text Label 6150 4000 2    60   ~ 0
-HDMIP_$RXn$1_HPD
+HDMIP_$RXn$1_HOT
 Text Label 3525 5785 1    60   ~ 0
-HDMIP_$RXn$1_HPD
+HDMIP_$RXn$1_HOT
 Text Label 1500 6600 0    60   ~ 0
-HDMI_$RXn$1_HPD
+HDMI_$RXn$1_HOT
 Text Label 1500 7150 0    60   ~ 0
 GND
 Text Label 7560 6700 2    60   ~ 0
@@ -658,7 +658,7 @@ HDMI_$RXn$1_HPA
 Text Label 6750 1750 0    60   ~ 0
 GND
 Text HLabel 1500 6600 0    60   Input ~ 0
-HDMI_$RXn$1_HPD
+HDMI_$RXn$1_HOT
 Text Notes 615  11035 0    197  ~ 39
 $WARNING1$\n$WARNING2$\n$WARNING3$
 Text Label 4820 6600 0    60   ~ 0
