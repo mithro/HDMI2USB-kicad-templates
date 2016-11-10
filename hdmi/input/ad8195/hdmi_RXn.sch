@@ -654,7 +654,7 @@ HDMI_$RXn$1_HOT
 Text Label 1500 7150 0    60   ~ 0
 GND
 Text Label 7560 6700 2    60   ~ 0
-HDMI_$RXn$1_HPA
+HDMI_$RXn$1_HOT
 Text Label 6750 1750 0    60   ~ 0
 GND
 Text HLabel 1500 6600 0    60   Input ~ 0
