@@ -21,6 +21,8 @@ Generally for TX you want the VCC5V0 output to be protected.
  * `HDMI_CLK_N` - LVDS
  * `HDMI_CLK_P` - LVDS
 
+Total: 8 signals == 1 x Dual PMOD header
+
 ## Low speed signals
 
  * `HDMI_CEC` - LVCMOS
@@ -30,7 +32,11 @@ Generally for TX you want the VCC5V0 output to be protected.
 
  * `HDMI_HOT` - LVCMOS
 
+Total: 4 signals == 1 x Single PMOD header
+
 ## Aux Control signals
+
+Total: 4 signals == 1 x Single PMOD header?
 
 ### PTN3363
 
