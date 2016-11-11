@@ -1,0 +1,3 @@
+[submodule "external/pmod"]
+	path = external/pmod
+	url = http://github.com/mithro/kicad-pmod.git
