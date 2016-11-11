@@ -38,7 +38,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
-Title "PTN3363 HDMI Transmitter Expansion Module"
+Title "PMOD (XADC Style) HDMI Transmitter Expansion Module"
 Date ""
 Rev ""
 Comp "https://github.com/mithro/pmod-hdmi-tx-ptn3363"
