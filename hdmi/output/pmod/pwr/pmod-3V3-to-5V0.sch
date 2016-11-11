@@ -269,7 +269,7 @@ Text Notes 3175 2725 0    79   ~ 16
 3.3V to 5V Voltage Booster\nLoad only *one* option\n
 Text HLabel 5775 2750 0    60   Input ~ 0
 VCC3V3
-Text HLabel 6175 2750 2    60   Input ~ 0
+Text HLabel 6175 2750 2    60   Output ~ 0
 VCC5V0
 $Comp
 L VCC #PWR?
