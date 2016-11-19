@@ -830,4 +830,20 @@ Wire Wire Line
 Connection ~ 7450 3200
 Wire Wire Line
 	7025 2975 7575 2975
+Text Label 6600 4800 0    8    ~ 0
+HDMIA_$TXn$1_CLK+
+Text Label 6600 4900 0    8    ~ 0
+HDMIA_$TXn$1_CLK-
+Text Label 6600 5100 0    8    ~ 0
+HDMIA_$TXn$1_D0+
+Text Label 6600 5200 0    8    ~ 0
+HDMIA_$TXn$1_D0-
+Text Label 6600 5400 0    8    ~ 0
+HDMIA_$TXn$1_D1+
+Text Label 6600 5500 0    8    ~ 0
+HDMIA_$TXn$1_D1-
+Text Label 6600 5700 0    8    ~ 0
+HDMIA_$TXn$1_D2+
+Text Label 6600 5800 0    8    ~ 0
+HDMIA_$TXn$1_D2-
 $EndSCHEMATC
