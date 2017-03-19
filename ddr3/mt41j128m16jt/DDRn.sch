@@ -28,8 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:hdmi2usb
-LIBS:HDMI2USB-cache
+LIBS:ddr
 EELAYER 25 0
 EELAYER END
 $Descr A2 23386 16535
@@ -83,12 +82,12 @@ $EndComp
 $Comp
 L R R$DDRn$111
 U 1 1 57C61749
-P 6900 4800
-F 0 "R$DDRn$111" V 6980 4800 50  0000 C CNN
-F 1 "100E" V 6900 4800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" H 6900 4800 60  0001 C CNN
-F 3 "" H 6900 4800 60  0000 C CNN
-	1    6900 4800
+P 6900 5550
+F 0 "R$DDRn$111" V 6800 5550 50  0000 C CNN
+F 1 "100E" V 6900 5550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" H 6900 5550 60  0001 C CNN
+F 3 "" H 6900 5550 60  0000 C CNN
+	1    6900 5550
 	0    -1   -1   0   
 $EndComp
 Text Label 9250 2650 0    60   ~ 12
@@ -142,45 +141,45 @@ $EndComp
 $Comp
 L R R$DDRn$104
 U 1 1 57C6174E
-P 4300 4750
-F 0 "R$DDRn$104" V 4350 4550 50  0000 C CNN
-F 1 "100E" V 4300 4750 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" H 4300 4750 60  0001 C CNN
-F 3 "" H 4300 4750 60  0000 C CNN
-	1    4300 4750
+P 4300 5000
+F 0 "R$DDRn$104" V 4400 5000 50  0000 C CNN
+F 1 "100E" V 4300 5000 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" H 4300 5000 60  0001 C CNN
+F 3 "" H 4300 5000 60  0000 C CNN
+	1    4300 5000
 	0    -1   -1   0   
 $EndComp
 $Comp
 L R R$DDRn$108
 U 1 1 57C6174F
-P 4850 6400
-F 0 "R$DDRn$108" V 4930 6400 50  0000 C CNN
-F 1 "4K7" V 4850 6400 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" H 4850 6400 60  0001 C CNN
-F 3 "" H 4850 6400 60  0000 C CNN
-	1    4850 6400
+P 4550 6400
+F 0 "R$DDRn$108" V 4630 6400 50  0000 C CNN
+F 1 "4K7" V 4550 6400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" H 4550 6400 60  0001 C CNN
+F 3 "" H 4550 6400 60  0000 C CNN
+	1    4550 6400
 	-1   0    0    1   
 $EndComp
 $Comp
 L R R$DDRn$106
 U 1 1 57C61750
-P 4600 6400
-F 0 "R$DDRn$106" V 4680 6400 50  0000 C CNN
-F 1 "4K7" V 4600 6400 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" H 4600 6400 60  0001 C CNN
-F 3 "" H 4600 6400 60  0000 C CNN
-	1    4600 6400
+P 4150 6400
+F 0 "R$DDRn$106" V 4230 6400 50  0000 C CNN
+F 1 "4K7" V 4150 6400 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" H 4150 6400 60  0001 C CNN
+F 3 "" H 4150 6400 60  0000 C CNN
+	1    4150 6400
 	-1   0    0    1   
 $EndComp
 $Comp
 L GND #PWR102
 U 1 1 57C61751
-P 4850 6800
-F 0 "#PWR102" H 4850 6800 30  0001 C CNN
-F 1 "GND" H 4850 6730 30  0001 C CNN
-F 2 "" H 4850 6800 60  0000 C CNN
-F 3 "" H 4850 6800 60  0000 C CNN
-	1    4850 6800
+P 4550 6850
+F 0 "#PWR102" H 4550 6850 30  0001 C CNN
+F 1 "GND" H 4550 6780 30  0001 C CNN
+F 2 "" H 4550 6850 60  0000 C CNN
+F 3 "" H 4550 6850 60  0000 C CNN
+	1    4550 6850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -413,24 +412,6 @@ Text Label 2400 3750 0    60   ~ 12
 $DDRn$1_A13
 Text Label 2400 3850 0    60   ~ 12
 $DDRn$1_A14
-Entry Wire Line
-	2300 3950 2400 3850
-Entry Wire Line
-	2300 3850 2400 3750
-Entry Wire Line
-	2300 3750 2400 3650
-Entry Wire Line
-	2300 3650 2400 3550
-Entry Wire Line
-	2300 3550 2400 3450
-Entry Wire Line
-	2300 3450 2400 3350
-Entry Wire Line
-	2300 3350 2400 3250
-Entry Wire Line
-	2300 3250 2400 3150
-Entry Wire Line
-	2300 3150 2400 3050
 Text HLabel 2000 2350 0    60   Input ~ 12
 $DDRn$1_A[0..14]
 Text Label 2400 3950 0    60   ~ 12
@@ -439,56 +420,46 @@ Text Label 2400 4050 0    60   ~ 12
 $DDRn$1_BA1
 Text Label 2400 4150 0    60   ~ 12
 $DDRn$1_BA2
-Entry Wire Line
-	2300 4050 2400 3950
-Entry Wire Line
-	2300 4150 2400 4050
-Entry Wire Line
-	2300 4250 2400 4150
 Text HLabel 2000 4050 0    60   Input ~ 12
 $DDRn$1_BA[0..2]
-Text HLabel 2000 4350 0    60   Input ~ 12
+Text HLabel 2000 5250 0    60   Input ~ 12
 $DDRn$1_CKE
-Text HLabel 2000 4550 0    60   Input ~ 12
+Text HLabel 2000 4750 0    60   Input ~ 12
 $DDRn$1_CK_P
-Text HLabel 2000 4650 0    60   Input ~ 12
+Text HLabel 2000 4850 0    60   Input ~ 12
 $DDRn$1_CK_N
-Text Label 5800 6150 0    60   ~ 12
-$DDRn$1_DQ0
-Text Label 5800 6250 0    60   ~ 12
-$DDRn$1_DQ1
 Text Label 5800 6350 0    60   ~ 12
-$DDRn$1_DQ2
+$DDRn$1_DQ0
 Text Label 5800 6450 0    60   ~ 12
-$DDRn$1_DQ3
+$DDRn$1_DQ1
 Text Label 5800 6550 0    60   ~ 12
-$DDRn$1_DQ4
+$DDRn$1_DQ2
 Text Label 5800 6650 0    60   ~ 12
-$DDRn$1_DQ5
+$DDRn$1_DQ3
 Text Label 5800 6750 0    60   ~ 12
-$DDRn$1_DQ6
+$DDRn$1_DQ4
 Text Label 5800 6850 0    60   ~ 12
-$DDRn$1_DQ7
+$DDRn$1_DQ5
 Text Label 5800 6950 0    60   ~ 12
-$DDRn$1_DQ8
+$DDRn$1_DQ6
 Text Label 5800 7050 0    60   ~ 12
-$DDRn$1_DQ9
-Text Label 5800 7150 0    60   ~ 12
-$DDRn$1_DQ10
-Text Label 5800 7250 0    60   ~ 12
-$DDRn$1_DQ11
-Text Label 5800 7350 0    60   ~ 12
-$DDRn$1_DQ12
-Text Label 5800 7450 0    60   ~ 12
-$DDRn$1_DQ13
-Text Label 5800 7550 0    60   ~ 12
-$DDRn$1_DQ14
+$DDRn$1_DQ7
 Text Label 5800 7650 0    60   ~ 12
+$DDRn$1_DQ8
+Text Label 5800 7750 0    60   ~ 12
+$DDRn$1_DQ9
+Text Label 5800 7850 0    60   ~ 12
+$DDRn$1_DQ10
+Text Label 5800 7950 0    60   ~ 12
+$DDRn$1_DQ11
+Text Label 5800 8050 0    60   ~ 12
+$DDRn$1_DQ12
+Text Label 5800 8150 0    60   ~ 12
+$DDRn$1_DQ13
+Text Label 5800 8250 0    60   ~ 12
+$DDRn$1_DQ14
+Text Label 5800 8350 0    60   ~ 12
 $DDRn$1_DQ15
-Entry Wire Line
-	5700 6250 5800 6150
-Entry Wire Line
-	5700 6350 5800 6250
 Entry Wire Line
 	5700 6450 5800 6350
 Entry Wire Line
@@ -506,68 +477,46 @@ Entry Wire Line
 Entry Wire Line
 	5700 7150 5800 7050
 Entry Wire Line
-	5700 7250 5800 7150
-Entry Wire Line
-	5700 7350 5800 7250
-Entry Wire Line
-	5700 7450 5800 7350
-Entry Wire Line
-	5700 7550 5800 7450
-Entry Wire Line
-	5700 7650 5800 7550
-Entry Wire Line
-	5700 7750 5800 7650
+	5700 7550 5800 7650
 Text HLabel 5400 7750 0    60   BiDi ~ 12
 $DDRn$1_DQ[0..15]
-Entry Wire Line
-	2300 2550 2400 2450
-Entry Wire Line
-	2300 2650 2400 2550
-Entry Wire Line
-	2300 2750 2400 2650
-Entry Wire Line
-	2300 2850 2400 2750
-Entry Wire Line
-	2300 2950 2400 2850
-Entry Wire Line
-	2300 3050 2400 2950
-Text HLabel 2000 5050 0    60   Input ~ 12
+Text HLabel 6800 5950 0    60   Input ~ 12
 $DDRn$1_LDM
-Text HLabel 2000 5200 0    60   Input ~ 12
+Text HLabel 2000 5450 0    60   Input ~ 12
 $DDRn$1_ODT
 Text HLabel 2000 5350 0    60   Input ~ 12
 $DDRn$1_RESET_N
-Text HLabel 2000 5550 0    60   Input ~ 12
+Text HLabel 2000 4250 0    60   Input ~ 12
 $DDRn$1_RAS_N
-Text HLabel 2000 5650 0    60   Input ~ 12
+Text HLabel 2000 4350 0    60   Input ~ 12
 $DDRn$1_CAS_N
-Text HLabel 2000 5750 0    60   Input ~ 12
+Text HLabel 2000 4450 0    60   Input ~ 12
 $DDRn$1_WE_N
-Text HLabel 2000 5950 0    60   Input ~ 12
+Text HLabel 6800 7250 0    60   Input ~ 12
 $DDRn$1_UDM
-Text HLabel 5400 7850 0    60   BiDi ~ 12
+Text HLabel 6800 6050 0    60   BiDi ~ 12
 $DDRn$1_LDQS_P
-Text HLabel 5400 7950 0    60   BiDi ~ 12
+Text HLabel 6800 6150 0    60   BiDi ~ 12
 $DDRn$1_LDQS_N
-Text HLabel 5400 8100 0    60   BiDi ~ 12
+Text HLabel 6800 7350 0    60   BiDi ~ 12
 $DDRn$1_UDQS_P
-Text HLabel 5400 8200 0    60   BiDi ~ 12
+Text HLabel 6800 7450 0    60   BiDi ~ 12
 $DDRn$1_UDQS_N
 Text GLabel 2000 6650 0    60   Input ~ 12
 GND
 Text GLabel 2295 9175 0    60   Input ~ 12
 VCC1V5
-Text Label 2250 5650 0    60   ~ 0
-$DDRn$1_CASN0
-Text Label 2250 5550 0    60   ~ 0
-$DDRn$1_RASN0
-Text Label 2250 5750 0    60   ~ 0
-$DDRn$1_WE0
-Text HLabel 2000 4800 0    60   Input ~ 12
+Text Label 2400 4350 0    60   ~ 0
+$DDRn$1_~CAS
+Text Label 2400 4250 0    60   ~ 0
+$DDRn$1_~RAS
+Text Label 2400 4450 0    60   ~ 0
+$DDRn$1_~WE
+Text HLabel 2000 5550 0    60   Input ~ 12
 $DDRn$1_CS_N
 Text Notes 625  15860 0    197  ~ 39
 $WARNING1$\n$WARNING2$\n$WARNING3$
-Text GLabel 9510 3050 2    60   Input ~ 12
+Text GLabel 11110 3050 2    60   Input ~ 12
 VCC1V5
 Text GLabel 11110 4000 2    60   Input ~ 12
 VCC1V5
@@ -751,7 +700,7 @@ Connection ~ 9250 2950
 Wire Wire Line
 	9200 3050 9250 3050
 Wire Wire Line
-	9250 3050 9510 3050
+	9250 3050 11110 3050
 Connection ~ 9250 3050
 Wire Wire Line
 	9200 3150 9250 3150
@@ -801,41 +750,37 @@ Wire Wire Line
 Wire Wire Line
 	2400 4150 7400 4150
 Wire Wire Line
-	2000 5750 7400 5750
+	2000 4450 7400 4450
 Wire Wire Line
-	2000 5650 7400 5650
+	2000 4350 7400 4350
 Wire Wire Line
-	2000 5550 7400 5550
+	2000 4250 7400 4250
 Wire Wire Line
-	2000 4350 4850 4350
+	2000 5250 4550 5250
 Wire Wire Line
-	4850 4350 7400 4350
+	4550 5250 7400 5250
 Wire Wire Line
-	2000 4550 4550 4550
+	2000 4750 4550 4750
 Wire Wire Line
-	4550 4550 7400 4550
+	4550 4750 7400 4750
 Wire Wire Line
-	2000 4650 4050 4650
+	2000 4850 4050 4850
 Wire Wire Line
-	4050 4650 7400 4650
+	4050 4850 7400 4850
 Wire Wire Line
-	7150 4850 7400 4850
+	7050 5550 7400 5550
 Wire Wire Line
 	2000 5350 4350 5350
 Wire Wire Line
 	4350 5350 7400 5350
 Wire Wire Line
-	2000 5200 4600 5200
+	2000 5450 4150 5450
 Wire Wire Line
-	4600 5200 7400 5200
+	4150 5450 7400 5450
 Wire Wire Line
-	2000 5050 7400 5050
+	6800 5950 7400 5950
 Wire Wire Line
-	2000 5950 7400 5950
-Wire Wire Line
-	7400 6150 5800 6150
-Wire Wire Line
-	7400 6250 5800 6250
+	6800 7250 7400 7250
 Wire Wire Line
 	7400 6350 5800 6350
 Wire Wire Line
@@ -853,25 +798,29 @@ Wire Wire Line
 Wire Wire Line
 	7400 7050 5800 7050
 Wire Wire Line
-	7400 7150 5800 7150
-Wire Wire Line
-	7400 7250 5800 7250
-Wire Wire Line
-	7400 7350 5800 7350
-Wire Wire Line
-	7400 7450 5800 7450
-Wire Wire Line
-	7400 7550 5800 7550
-Wire Wire Line
 	7400 7650 5800 7650
 Wire Wire Line
-	5400 7850 7400 7850
+	7400 7750 5800 7750
 Wire Wire Line
-	5400 7950 7400 7950
+	7400 7850 5800 7850
 Wire Wire Line
-	5400 8100 7400 8100
+	7400 7950 5800 7950
 Wire Wire Line
-	5400 8200 7400 8200
+	7400 8050 5800 8050
+Wire Wire Line
+	7400 8150 5800 8150
+Wire Wire Line
+	7400 8250 5800 8250
+Wire Wire Line
+	7400 8350 5800 8350
+Wire Wire Line
+	6800 6050 7400 6050
+Wire Wire Line
+	6800 6150 7400 6150
+Wire Wire Line
+	6800 7350 7400 7350
+Wire Wire Line
+	6800 7450 7400 7450
 Wire Wire Line
 	9200 2450 9500 2450
 Wire Wire Line
@@ -896,30 +845,29 @@ Wire Wire Line
 Wire Wire Line
 	9500 5150 9500 5250
 Wire Wire Line
-	4850 4350 4850 6250
-Connection ~ 4850 4350
-Connection ~ 4550 4550
-Connection ~ 4050 4650
+	4550 5250 4550 6250
+Connection ~ 4550 5250
+Connection ~ 4550 4750
+Connection ~ 4050 4850
 Wire Wire Line
-	4850 6550 4850 6650
+	4550 6550 4550 6650
 Wire Wire Line
-	4850 6650 4850 6800
+	4550 6650 4550 6850
 Wire Wire Line
-	2000 6650 4350 6650
+	2000 6650 4150 6650
 Wire Wire Line
-	4350 6650 4600 6650
+	4150 6650 4350 6650
 Wire Wire Line
-	4600 6650 4850 6650
+	4350 6650 4550 6650
 Wire Wire Line
-	4850 6650 5150 6650
+	4550 6650 4600 6650
 Wire Wire Line
-	4600 5200 4600 6250
-Connection ~ 4600 5200
-Connection ~ 4850 6650
+	4600 6650 4550 6650
 Wire Wire Line
-	4350 5350 4350 6250
+	4550 6650 5150 6650
+Connection ~ 4150 5450
+Connection ~ 4550 6650
 Connection ~ 4350 5350
-Connection ~ 4600 6650
 Wire Wire Line
 	2295 9175 2745 9175
 Wire Wire Line
@@ -1003,7 +951,9 @@ Wire Wire Line
 Connection ~ 8670 9175
 Connection ~ 2745 9175
 Wire Bus Line
-	2300 2350 2300 2550
+	2300 2350 2300 2450
+Wire Bus Line
+	2300 2450 2300 2550
 Wire Bus Line
 	2300 2550 2300 2650
 Wire Bus Line
@@ -1029,21 +979,9 @@ Wire Bus Line
 Wire Bus Line
 	2300 3650 2300 3750
 Wire Bus Line
-	2300 3750 2300 3850
-Wire Bus Line
-	2300 3850 2300 3950
-Wire Bus Line
 	2300 2350 2000 2350
 Wire Bus Line
-	2300 4050 2300 4150
-Wire Bus Line
-	2300 4150 2300 4250
-Wire Bus Line
 	2300 4050 2000 4050
-Wire Bus Line
-	5700 6250 5700 6350
-Wire Bus Line
-	5700 6350 5700 6450
 Wire Bus Line
 	5700 6450 5700 6550
 Wire Bus Line
@@ -1059,41 +997,41 @@ Wire Bus Line
 Wire Bus Line
 	5700 7050 5700 7150
 Wire Bus Line
-	5700 7150 5700 7250
-Wire Bus Line
-	5700 7250 5700 7350
-Wire Bus Line
-	5700 7350 5700 7450
-Wire Bus Line
-	5700 7450 5700 7550
+	5700 7150 5700 7550
 Wire Bus Line
 	5700 7550 5700 7650
 Wire Bus Line
 	5700 7650 5700 7750
 Wire Bus Line
+	5700 7750 5700 7850
+Wire Bus Line
+	5700 7850 5700 7950
+Wire Bus Line
+	5700 7950 5700 8050
+Wire Bus Line
+	5700 8050 5700 8150
+Wire Bus Line
+	5700 8150 5700 8250
+Wire Bus Line
 	5700 7750 5400 7750
 Connection ~ 4350 6650
 Wire Wire Line
-	4550 4750 4550 4550
+	4550 5000 4550 4750
 Wire Wire Line
-	4050 4750 4050 4650
+	4050 5000 4050 4850
 Wire Wire Line
-	2000 4800 5150 4800
+	2000 5550 5150 5550
 Wire Wire Line
-	5150 4800 6750 4800
+	5150 5550 6750 5550
 Wire Wire Line
-	5150 6650 5150 4800
-Wire Wire Line
-	7150 4800 7150 4850
+	5150 6650 5150 5550
 Wire Wire Line
 	2745 9175 2745 9325
-Connection ~ 5150 4800
+Connection ~ 5150 5550
 Wire Wire Line
-	4050 4750 4150 4750
+	4050 5000 4150 5000
 Wire Wire Line
-	4450 4750 4550 4750
-Wire Wire Line
-	7050 4800 7150 4800
+	4450 5000 4550 5000
 Wire Wire Line
 	9500 4750 9500 4800
 Wire Wire Line
@@ -1101,7 +1039,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 6550 4350 6650
 Wire Wire Line
-	4600 6550 4600 6650
+	4150 6550 4150 6650
 Wire Wire Line
 	2745 9625 2745 9725
 Wire Wire Line
@@ -1375,6 +1313,81 @@ $DDRn$10V75
 Connection ~ 9020 9725
 Wire Wire Line
 	3795 10975 3795 10875
-Text Notes 11300 7050 0    120  ~ 24
-Note:\n\nAll RD* resistors are 0402 package, 1% tolerance and 1/4 Watts\n\nAll CD* capacitors can be any ceramics with 10% and 5V tolerances. Package is 0402. X5R and\nX7R capacitors are fine. Common example would be 0.1uF, 25V, X5R, 0402 capacitor.
+Text Notes 14350 9350 0    120  ~ 24
+Component Notes\n-----------------------------------------------\nAll RD* resistors are 0402 package, 1% tolerance and 1/4 Watts\n\nAll CD* capacitors can be any ceramics with 10% and 5V tolerances.\nPackage is 0402. \nX5R and X7R capacitors are fine. \nCommon example would be 0.1uF, 25V, X5R, 0402 capacitor.\n\n\n\n\n
+Entry Wire Line
+	5700 7650 5800 7750
+Entry Wire Line
+	5700 7750 5800 7850
+Entry Wire Line
+	5700 7850 5800 7950
+Entry Wire Line
+	5700 7950 5800 8050
+Entry Wire Line
+	5700 8050 5800 8150
+Entry Wire Line
+	5700 8150 5800 8250
+Entry Wire Line
+	5700 8250 5800 8350
+Wire Wire Line
+	4150 6250 4150 5450
+Text Label 2400 5250 0    60   ~ 0
+$DDRn$1_CKE
+Text Label 2400 4750 0    60   ~ 0
+$DDRn$1_CK_P
+Text Label 2400 4850 0    60   ~ 0
+$DDRn$1_CK_N
+Text Label 2400 5550 0    60   ~ 0
+$DDRn$1_~CS
+Text Label 2400 5350 0    60   ~ 0
+$DDRn$1_~RESET
+Text Notes 900  8350 0    59   ~ 0
+Data Lines Connection Notes\n-----------------------------------------------\nDQ0, DQ8 are fixed and must not be changed.\nThe other DQ pins can be swapped;\n - DQ1 through DQ7 are entirely equivalent, and can be interchanged.\n - DQ9 through DQ15 are entirely equivalent, and can be interchanged.\n - You must not interchange any of the DQ0-7 signals or pins with \n    any of the DQ8-15 pins or signals.\n\nThe whole byte of DQ lines can also be swapped, but it also\nrequires swapping the UD/LD pins at the same time.
+Text Label 2400 5450 0    60   ~ 0
+$DDRn$1_ODT
+Text Notes 14350 15650 0    120  ~ 24
+Naming Information\n-----------------------------------------------\n\nAddress Lines\n * AX - Data Address\n * BAX - Bank Address\n\nCommand Lines\n * ~RAS~ - Row Access Strobe\n * ~CAS~ - Column Access Strobe\n * ~WE~ - Write Enable\n\nClock Lines\n * CK_P/CK_N - Clock (Pseudo differential pair)\n\nControl Lines\n * CKE - Clock enable\n * ~CS~ - Chip Select\n * ODT - On Die Termination\n * ~RESET~ - Reset\n\nLower Data Byte Lines\n * LDM - Lower Data Mask\n * LDSQ_N/LDSQ_P - Lower Data Strobe (Pseudo differential pair)\n * DQ[0..7] - Data (lower byte)\n\nUpper Data Byte Lines\n * UDM - Upper (byte) Data Mask\n * UDSQ_N/UDSQ_P - Upper (byte) Data Strobe (Pseudo differential pair)\n * DQ[7..15] - Data (upper byte)\n\nPower Lines\n * VDDQ - Supply near data pins\n * VSSQ - Return near data pins
+Entry Wire Line
+	2300 2350 2400 2450
+Entry Wire Line
+	2300 2450 2400 2550
+Entry Wire Line
+	2300 2550 2400 2650
+Entry Wire Line
+	2300 2650 2400 2750
+Entry Wire Line
+	2300 2750 2400 2850
+Entry Wire Line
+	2300 2850 2400 2950
+Entry Wire Line
+	2300 2950 2400 3050
+Entry Wire Line
+	2300 3050 2400 3150
+Entry Wire Line
+	2300 3150 2400 3250
+Entry Wire Line
+	2300 3250 2400 3350
+Entry Wire Line
+	2300 3350 2400 3450
+Entry Wire Line
+	2300 3450 2400 3550
+Entry Wire Line
+	2300 3550 2400 3650
+Entry Wire Line
+	2300 3650 2400 3750
+Entry Wire Line
+	2300 3850 2400 3950
+Entry Wire Line
+	2300 3750 2400 3850
+Entry Wire Line
+	2300 3950 2400 4050
+Entry Wire Line
+	2300 4050 2400 4150
+Wire Bus Line
+	2300 4050 2300 3950
+Wire Bus Line
+	2300 3950 2300 3850
+Wire Wire Line
+	4350 5350 4350 6250
+Connection ~ 4150 6650
 $EndSCHEMATC
